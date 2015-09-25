@@ -1,0 +1,94 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.selector import Selector
+from scrapy.http import Request
+from itouzi.items import ItouziItem
+import urllib
+import urllib2
+import os
+import re
+import httplib
+import sys
+
+
+#爱投资对于已完成还款的标的，将不公示其信息
+class ItouziSpider(CrawlSpider):
+    #  to solve the problem:'ascii' codec can't decode byte 0xe5 in position 0: ordinal not in range(128)
+    reload(sys)
+    sys.setdefaultencoding('utf8')
+    #/
+    name = 'itouzi'
+    allowd_domain = ['www.itouzi.com']
+    download_delay = 1  #访问间隔秒数
+
+    url1 = ['http://www.itouzi.com/invest/index.html?page='+str(x) for x in range(1,5)]
+    url2 = ['http://www.itouzi.com/dinvest/factoring/index?page='+str(x) for x in range(1,5)]
+    url3 = ['http://www.itouzi.com/dinvest/lease/index?page='+str(x) for x in range(1,2)]
+    url4 = ['http://www.itouzi.com/dinvest/art/index?page='+str(x) for x in range(1,2)]
+    url1.extend(url2)
+    url1.extend(url3)
+    url1.extend(url4)
+    start_urls = url1
+    #print start_urls
+
+    rules = (
+        Rule(SgmlLinkExtractor(allow=('/dinvest/invest/detail.*', )),
+             callback='parse_page', follow=True),
+        Rule(SgmlLinkExtractor(allow=('/dinvest/factoring/detail.*', )),
+             callback='parse_page', follow=True),
+        Rule(SgmlLinkExtractor(allow=('/dinvest/lease/detail.*', )),
+             callback='parse_page', follow=True),
+        Rule(SgmlLinkExtractor(allow=('/dinvest/art/detail.*', )),
+             callback='parse_page', follow=True),
+    )
+
+
+
+    #def parse_page(self, response):
+    def parse_page(self, response):
+        item = ItouziItem()
+        sel = Selector(response)
+        #item['link'] = sel.xpath('//a[@class=\"viewBtn\"]/@href').extract()
+        #title1 = title[0]
+        #title2 = title1.extract().split(",")[1].split("-")[0]
+        item['name'] = sel.xpath('//title/text()').extract()[0]
+        item['link'] = response.url
+
+        amount1 = sel.xpath('//div[@class=\"i-p-i-c-condition clearfix\"]/dl/dd/strong/text()').extract()
+        amount2 = sel.xpath('//div[@class=\"i-p-i-c-condition clearfix\"]/dl/dd/span/text()').extract()
+        if amount1 and amount2:
+            item['amount'] = amount1[1] + amount2[1]
+        else:
+            item['amount'] = ''
+
+        item['min_amount'] = ''
+        item['income_rate'] = sel.xpath('//div[@class=\"i-p-i-c-condition clearfix\"]/dl/dd/em/text()').extract()[0]
+
+        term1 = sel.xpath('//div[@class=\"i-p-i-c-condition clearfix\"]/dl/dd/strong/text()').extract()[0]
+        term2 = sel.xpath('//div[@class=\"i-p-i-c-condition clearfix\"]/dl/dd/span/text()').extract()[0]
+        item['term'] = term1 + term2
+
+        item['area'] = ''
+        item['transfer_claim'] = ''
+        item['repay_type'] = sel.xpath('//ul[@class=\"i-p-i-guarantee mgt\"]/li/text()').extract()[0]
+        item['reward'] = ''
+
+        item['protect_mode'] = sel.xpath('//a[@class=\"tips fl\"]/@title').extract()[0]
+
+        description = sel.xpath('//div[@id=\"projectDesc\"]/div/div[@class=\"allDesc\"]/p/text()').extract()
+        if description:
+            item['description'] = description[0].strip()
+        else:
+            item['description'] = ''
+
+        process = sel.xpath('//div[@class=\"clearfix\"]/span/text()').extract()
+        if process:
+            item['process'] = process[1]
+        else:
+            item['process'] = ''
+        #[0].encode('utf-8')
+        #[n.encode('utf-8') for n in title]
+
+        yield item

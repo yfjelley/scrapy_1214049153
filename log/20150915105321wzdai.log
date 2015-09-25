@@ -1,0 +1,1141 @@
+2015-09-15 10:53:21 开始运行爬虫----------wzdai---------------------------------------
+2015-09-15 10:53:38+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: wzdai)
+2015-09-15 10:53:38+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-15 10:53:38+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'wzdai.spiders', 'SPIDER_MODULES': ['wzdai.spiders'], 'BOT_NAME': 'wzdai'}
+2015-09-15 10:53:39+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-15 10:53:40+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-15 10:53:40+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-15 10:53:40+0800 [scrapy] INFO: Enabled item pipelines: WzdaiPipeline
+2015-09-15 10:53:40+0800 [wzdai] INFO: Spider opened
+2015-09-15 10:53:40+0800 [wzdai] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-15 10:53:40+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6044
+2015-09-15 10:53:40+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6101
+2015-09-15 10:53:40+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625622> (referer: None)
+2015-09-15 10:53:40+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625622>
+	{'amount': u'137138.00',
+	 'area': '',
+	 'description': u'\u8bf7\u5927\u5bb6\u575a\u51b3\u4e0d\u6295\u665a\u8fd8\u725b\uff01',
+	 'income_rate': u'7.8',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625622.html',
+	 'min_amount': '',
+	 'name': u'\u8bf7\u5927\u5bb6\u575a\u51b3\u4e0d\u6295\u665a\u8fd8\u725b\uff01',
+	 'process': 0.07291924922341,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'10day',
+	 'transfer_claim': ''}
+2015-09-15 10:53:43+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625740> (referer: None)
+2015-09-15 10:53:43+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625740>
+	{'amount': u'130000.00',
+	 'area': '',
+	 'description': u'4\u5929\u9ad8\u606f',
+	 'income_rate': u'9.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625740.html',
+	 'min_amount': '',
+	 'name': u'4\u5929\u9ad8\u606f',
+	 'process': 80.20727692307693,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'4day',
+	 'transfer_claim': ''}
+2015-09-15 10:53:48+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625756> (referer: None)
+2015-09-15 10:53:48+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625756>
+	{'amount': u'111088.00',
+	 'area': '',
+	 'description': u'\u7701\u5fc3\u6708\u6807\uff0c4\u91d1\u51a0\u4fe1\u7528\uff0c\u8c22\u8c22',
+	 'income_rate': u'9.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625756.html',
+	 'min_amount': '',
+	 'name': u'\u7701\u5fc3\u6708\u6807\uff0c4\u91d1\u51a0\u4fe1\u7528\uff0c\u8c22\u8c22',
+	 'process': 1.4043821114791875,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'30day',
+	 'transfer_claim': ''}
+2015-09-15 10:53:51+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625651> (referer: None)
+2015-09-15 10:53:51+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625651>
+	{'amount': u'106000.00',
+	 'area': '',
+	 'description': u'35\u5929\u6700\u9ad8\u606f\u6807',
+	 'income_rate': u'9.6',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625651.html',
+	 'min_amount': '',
+	 'name': u'35\u5929\u6700\u9ad8\u606f\u6807',
+	 'process': 32.07905660377359,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'35day',
+	 'transfer_claim': ''}
+2015-09-15 10:53:55+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625769> (referer: None)
+2015-09-15 10:53:56+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625769>
+	{'amount': u'125000.00',
+	 'area': '',
+	 'description': u'\u4e0a\u534812\u70b9\u524d\u8fd8,5\u91d1\u7687\u51a0,\u96f6\u8fdf\u8fd8\u96f6\u98ce\u9669',
+	 'income_rate': u'6.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625769.html',
+	 'min_amount': '',
+	 'name': u'\u4e0a\u534812\u70b9\u524d\u8fd8,5\u91d1\u7687\u51a0,\u96f6\u8fdf\u8fd8\u96f6\u98ce\u9669',
+	 'process': 0.48,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:53:58+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625708> (referer: None)
+2015-09-15 10:53:58+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625708>
+	{'amount': u'112222.00',
+	 'area': '',
+	 'description': u'11\u5929\u65e9\u8fd8',
+	 'income_rate': u'9.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625708.html',
+	 'min_amount': '',
+	 'name': u'11\u5929\u65e9\u8fd8',
+	 'process': 98.11712498440592,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'11day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:01+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625523> (referer: None)
+2015-09-15 10:54:01+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625523>
+	{'amount': u'193388.00',
+	 'area': '',
+	 'description': u'5\u91d1\u51a0\u768430\u5929\u6807\uff0c\u8bda\u4fe1\u65e9\u8fd8\uff0c\u8c22\u8c22',
+	 'income_rate': u'9.28',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625523.html',
+	 'min_amount': '',
+	 'name': u'5\u91d1\u51a0\u768430\u5929\u6807\uff0c\u8bda\u4fe1\u65e9\u8fd8\uff0c\u8c22\u8c22',
+	 'process': 93.16982956543322,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'30day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:05+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625752> (referer: None)
+2015-09-15 10:54:05+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625752>
+	{'amount': u'121333.00',
+	 'area': '',
+	 'description': u'\u5929\u6807\u5c3d\u65e9\u8fd8\uff0c\u91d1\u724c\u4fe1\u8a89\uff0c\u6295\u7684\u653e\u5fc3\uff01',
+	 'income_rate': u'9.12',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625752.html',
+	 'min_amount': '',
+	 'name': u'\u5929\u6807\u5c3d\u65e9\u8fd8\uff0c\u91d1\u724c\u4fe1\u8a89\uff0c\u6295\u7684\u653e\u5fc3\uff01',
+	 'process': 1.6546199302745337,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:09+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625761> (referer: None)
+2015-09-15 10:54:09+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625761>
+	{'amount': u'106311.00',
+	 'area': '',
+	 'description': u'\u4e54\u4e39\u4fe1\u8a89\u9ad8\u8fd8\u5f97\u65e9',
+	 'income_rate': u'8.1',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625761.html',
+	 'min_amount': '',
+	 'name': u'\u4e54\u4e39\u4fe1\u8a89\u9ad8\u8fd8\u5f97\u65e9',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:13+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625349> (referer: None)
+2015-09-15 10:54:13+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625349>
+	{'amount': u'201888.00',
+	 'area': '',
+	 'description': u'\u4e54\u4e39\u91d1\u51a0\u738bO\u8fdf\u8fd8',
+	 'income_rate': u'7.8',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625349.html',
+	 'min_amount': '',
+	 'name': u'\u4e54\u4e39\u91d1\u51a0\u738bO\u8fdf\u8fd8',
+	 'process': 41.917880210809955,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'10day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:17+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625741> (referer: None)
+2015-09-15 10:54:17+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625741>
+	{'amount': u'75000.00',
+	 'area': '',
+	 'description': u'2\u5929',
+	 'income_rate': u'8.02',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625741.html',
+	 'min_amount': '',
+	 'name': u'2\u5929',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:21+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=624802> (referer: None)
+2015-09-15 10:54:21+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=624802>
+	{'amount': u'50100.00',
+	 'area': '',
+	 'description': u'9\u5929',
+	 'income_rate': u'5.1',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_624802.html',
+	 'min_amount': '',
+	 'name': u'9\u5929',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'9day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:25+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625758> (referer: None)
+2015-09-15 10:54:25+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625758>
+	{'amount': u'50000.00',
+	 'area': '',
+	 'description': u'1',
+	 'income_rate': u'11.02',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625758.html',
+	 'min_amount': '',
+	 'name': u'1',
+	 'process': 36.026599999999995,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:29+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625681> (referer: None)
+2015-09-15 10:54:29+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625681>
+	{'amount': u'47308.00',
+	 'area': '',
+	 'description': u'\u4fe1\u8a89\u7b2c\u4e00\uff0c\u8bda\u4fe1\u65e9\u8fd8',
+	 'income_rate': u'8.68',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625681.html',
+	 'min_amount': '',
+	 'name': u'\u4fe1\u8a89\u7b2c\u4e00\uff0c\u8bda\u4fe1\u65e9\u8fd8',
+	 'process': 5.280290859896846,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'3day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:33+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625693> (referer: None)
+2015-09-15 10:54:33+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625693>
+	{'amount': u'100100.00',
+	 'area': '',
+	 'description': u'\u65e9\u8fd8',
+	 'income_rate': u'9.02',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625693.html',
+	 'min_amount': '',
+	 'name': u'\u65e9\u8fd8',
+	 'process': 85.21538461538462,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'4day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:36+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625402> (referer: None)
+2015-09-15 10:54:36+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625402>
+	{'amount': u'50000.00',
+	 'area': '',
+	 'description': u'\u5c1a\u6b66\u541b\uff0c\u63d0\u73b0\u524d\uff0c\u4e0a\u5348\u5fc5\u8fd8',
+	 'income_rate': u'7.8',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625402.html',
+	 'min_amount': '',
+	 'name': u'\u5c1a\u6b66\u541b\uff0c\u63d0\u73b0\u524d\uff0c\u4e0a\u5348\u5fc5\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'9day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:40+0800 [wzdai] INFO: Crawled 16 pages (at 16 pages/min), scraped 16 items (at 16 items/min)
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625699> (referer: None)
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625699>
+	{'amount': u'80800.00',
+	 'area': '',
+	 'description': u'\u4e2d\u534813\u70b9\u524d\u8fd8\uff0c\u53ea\u65e9\u4e0d\u665a\uff0c\u7701\u65f6\u7701\u5fc3',
+	 'income_rate': u'5.15',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625699.html',
+	 'min_amount': '',
+	 'name': u'\u4e2d\u534813\u70b9\u524d\u8fd8\uff0c\u53ea\u65e9\u4e0d\u665a\uff0c\u7701\u65f6\u7701\u5fc3',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625759> (referer: None)
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625767> (referer: None)
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625759>
+	{'amount': u'42404.00',
+	 'area': '',
+	 'description': u'\u9ad8\u4fe1\u8a89\u4fdd\u8bc1 \u63d0\u524d\u4e00\u5929\u8fd8',
+	 'income_rate': u'10.03',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625759.html',
+	 'min_amount': '',
+	 'name': u'\u9ad8\u4fe1\u8a89\u4fdd\u8bc1 \u63d0\u524d\u4e00\u5929\u8fd8',
+	 'process': 0.492878030374493,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'24day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625683> (referer: None)
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625766> (referer: None)
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625767>
+	{'amount': u'100000.00',
+	 'area': '',
+	 'description': u'\u6708\u6807\u6709\u79ef\u5206\uff0c\u653e\u5fc3\u6295\uff0c\u63d0\u73b0\u524d\u8fd8\u5df2\u52fe\uff01',
+	 'income_rate': u'10.28',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625767.html',
+	 'min_amount': '',
+	 'name': u'\u6708\u6807\u6709\u79ef\u5206\uff0c\u653e\u5fc3\u6295\uff0c\u63d0\u73b0\u524d\u8fd8\u5df2\u52fe\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1month',
+	 'transfer_claim': ''}
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625683>
+	{'amount': u'47630.00',
+	 'area': '',
+	 'description': u'\u4e54\u4e39\u597d\u4fe1\u8a89\u5df2\u52fe13\u70b9\u524d\u8fd8\uff0cO\u8fdf\u8fd8\u903e\u671f',
+	 'income_rate': u'5.3',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625683.html',
+	 'min_amount': '',
+	 'name': u'\u4e54\u4e39\u597d\u4fe1\u8a89\u5df2\u52fe13\u70b9\u524d\u8fd8\uff0cO\u8fdf\u8fd8\u903e\u671f',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:54:59+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625766>
+	{'amount': u'64000.00',
+	 'area': '',
+	 'description': u'1\u5929',
+	 'income_rate': u'10.6',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625766.html',
+	 'min_amount': '',
+	 'name': u'1\u5929',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:00+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625768> (referer: None)
+2015-09-15 10:55:00+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625768>
+	{'amount': u'35000.00',
+	 'area': '',
+	 'description': u'\u4e0a\u534812\u70b9\u524d\u8fd8,4\u91d1\u7687\u51a0,\u96f6\u8fdf\u8fd8\u96f6\u98ce\u9669',
+	 'income_rate': u'5.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625768.html',
+	 'min_amount': '',
+	 'name': u'\u4e0a\u534812\u70b9\u524d\u8fd8,4\u91d1\u7687\u51a0,\u96f6\u8fdf\u8fd8\u96f6\u98ce\u9669',
+	 'process': 57.028571428571425,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:04+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625721> (referer: None)
+2015-09-15 10:55:04+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625721>
+	{'amount': u'32000.00',
+	 'area': '',
+	 'description': u'10\u5929\u9ad8\u606f\uff01\u8c22\u8c22\uff01',
+	 'income_rate': u'9.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625721.html',
+	 'min_amount': '',
+	 'name': u'10\u5929\u9ad8\u606f\uff01\u8c22\u8c22\uff01',
+	 'process': 9.53125,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'10day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:07+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625647> (referer: None)
+2015-09-15 10:55:07+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625647>
+	{'amount': u'42000.00',
+	 'area': '',
+	 'description': u'12\u70b9\u524d\u8fd8\uff0c\u4e00\u822c\u8fc7\u591c\u5c31\u8fd8\uff01\u8bda\u4fe1\u5df2\u94a9',
+	 'income_rate': u'5.11',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625647.html',
+	 'min_amount': '',
+	 'name': u'12\u70b9\u524d\u8fd8\uff0c\u4e00\u822c\u8fc7\u591c\u5c31\u8fd8\uff01\u8bda\u4fe1\u5df2\u94a9',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:11+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625705> (referer: None)
+2015-09-15 10:55:11+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625705>
+	{'amount': u'35000.00',
+	 'area': '',
+	 'description': u'\u63d0\u73b02\u70b9\u524d\u8fd8\u5df2\u52fe\uff0c\u4e00\u822c\u66f4\u65e9\uff0c\u8c22\u8c22\u652f\u6301\uff01\uff01',
+	 'income_rate': u'8.18',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625705.html',
+	 'min_amount': '',
+	 'name': u'\u63d0\u73b02\u70b9\u524d\u8fd8\u5df2\u52fe\uff0c\u4e00\u822c\u66f4\u65e9\uff0c\u8c22\u8c22\u652f\u6301\uff01\uff01',
+	 'process': 41.397171428571426,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:16+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625694> (referer: None)
+2015-09-15 10:55:16+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625694>
+	{'amount': u'44526.00',
+	 'area': '',
+	 'description': u'2\u91d1\u51a0\u4fe1\u8a89\uff0c\u8bda\u4fe1\u501f\u6b3e\uff0c\u65e9\u8fd8\uff01',
+	 'income_rate': u'8.3',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625694.html',
+	 'min_amount': '',
+	 'name': u'2\u91d1\u51a0\u4fe1\u8a89\uff0c\u8bda\u4fe1\u501f\u6b3e\uff0c\u65e9\u8fd8\uff01',
+	 'process': 33.620289269191034,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'7day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:20+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625706> (referer: None)
+2015-09-15 10:55:20+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625706>
+	{'amount': u'35000.00',
+	 'area': '',
+	 'description': u'3\u5929\u9ad8\u606f',
+	 'income_rate': u'8.18',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625706.html',
+	 'min_amount': '',
+	 'name': u'3\u5929\u9ad8\u606f',
+	 'process': 0.2857142857142857,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'3day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:23+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625701> (referer: None)
+2015-09-15 10:55:23+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625701>
+	{'amount': u'25000.00',
+	 'area': '',
+	 'description': u'\u2605\u2605\u2605\u2605\u2605',
+	 'income_rate': u'10.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625701.html',
+	 'min_amount': '',
+	 'name': u'\u2605\u2605\u2605\u2605\u2605',
+	 'process': 95.31971999999999,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'40day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:28+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625707> (referer: None)
+2015-09-15 10:55:28+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625707>
+	{'amount': u'28000.00',
+	 'area': '',
+	 'description': u'\u63d0\u73b02\u70b9\u524d\u8fd8\u5df2\u52fe\uff0c\u8c22\u8c22\u652f\u6301\uff01\uff01',
+	 'income_rate': u'8.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625707.html',
+	 'min_amount': '',
+	 'name': u'\u63d0\u73b02\u70b9\u524d\u8fd8\u5df2\u52fe\uff0c\u8c22\u8c22\u652f\u6301\uff01\uff01',
+	 'process': 82.22892857142855,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:31+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625567> (referer: None)
+2015-09-15 10:55:31+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625567>
+	{'amount': u'22000.00',
+	 'area': '',
+	 'description': u'1\u5929',
+	 'income_rate': u'5.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625567.html',
+	 'min_amount': '',
+	 'name': u'1\u5929',
+	 'process': 0.9372272727272727,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:34+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625744> (referer: None)
+2015-09-15 10:55:34+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625744>
+	{'amount': u'20512.00',
+	 'area': '',
+	 'description': u'\u5c3d\u65e9\u8fd8\u8c22\u8c22\u652f\u6301',
+	 'income_rate': u'8.01',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625744.html',
+	 'min_amount': '',
+	 'name': u'\u5c3d\u65e9\u8fd8\u8c22\u8c22\u652f\u6301',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:37+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625754> (referer: None)
+2015-09-15 10:55:37+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625754>
+	{'amount': u'13500.00',
+	 'area': '',
+	 'description': u'111',
+	 'income_rate': u'10.02',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625754.html',
+	 'min_amount': '',
+	 'name': u'111',
+	 'process': 23.644444444444446,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:39+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625657> (referer: None)
+2015-09-15 10:55:39+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625657>
+	{'amount': u'20200.00',
+	 'area': '',
+	 'description': u'7\u5929\u63d0\u73b0\u524d\u5df2\u52fe\uff0c\u4e0a\u5348\u5b98\u6807\u56de\u6b3e\u5373\u8fd8',
+	 'income_rate': u'7.01',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625657.html',
+	 'min_amount': '',
+	 'name': u'7\u5929\u63d0\u73b0\u524d\u5df2\u52fe\uff0c\u4e0a\u5348\u5b98\u6807\u56de\u6b3e\u5373\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'7day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:40+0800 [wzdai] INFO: Crawled 33 pages (at 17 pages/min), scraped 33 items (at 17 items/min)
+2015-09-15 10:55:43+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625733> (referer: None)
+2015-09-15 10:55:43+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625733>
+	{'amount': u'12000.00',
+	 'area': '',
+	 'description': u'\u5c0f\u989d\u5468\u8f6c\u4e0b',
+	 'income_rate': u'9.88',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625733.html',
+	 'min_amount': '',
+	 'name': u'\u5c0f\u989d\u5468\u8f6c\u4e0b',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'30day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:47+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625722> (referer: None)
+2015-09-15 10:55:47+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625722>
+	{'amount': u'19930.00',
+	 'area': '',
+	 'description': u'2\u5929\u5c0f\u6807\u6613\u6ee1\u4e0d\u903e\u671f',
+	 'income_rate': u'8.3',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625722.html',
+	 'min_amount': '',
+	 'name': u'2\u5929\u5c0f\u6807\u6613\u6ee1\u4e0d\u903e\u671f',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:50+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625497> (referer: None)
+2015-09-15 10:55:51+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625497>
+	{'amount': u'15000.00',
+	 'area': '',
+	 'description': u'\u77ed\u671f\u5468\u8f6c\uff0c\u8bda\u4fe1\u501f\u6b3e\uff0c\u65e9\u8fd8',
+	 'income_rate': u'8.5',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625497.html',
+	 'min_amount': '',
+	 'name': u'\u77ed\u671f\u5468\u8f6c\uff0c\u8bda\u4fe1\u501f\u6b3e\uff0c\u65e9\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'30day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:54+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625711> (referer: None)
+2015-09-15 10:55:54+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625711>
+	{'amount': u'21600.00',
+	 'area': '',
+	 'description': u'999999999',
+	 'income_rate': u'8.01',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625711.html',
+	 'min_amount': '',
+	 'name': u'999999999',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'6day',
+	 'transfer_claim': ''}
+2015-09-15 10:55:57+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625714> (referer: None)
+2015-09-15 10:55:57+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625714>
+	{'amount': u'13500.00',
+	 'area': '',
+	 'description': u'5\u5929\u5168\u7f51\u6700\u9ad8\u606f\uff01',
+	 'income_rate': u'8.69',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625714.html',
+	 'min_amount': '',
+	 'name': u'5\u5929\u5168\u7f51\u6700\u9ad8\u606f\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'5day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:00+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625710> (referer: None)
+2015-09-15 10:56:00+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625710>
+	{'amount': u'13000.00',
+	 'area': '',
+	 'description': u'5\u5929\u5168\u7f51\u6700\u9ad8\u606f\uff01',
+	 'income_rate': u'8.69',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625710.html',
+	 'min_amount': '',
+	 'name': u'5\u5929\u5168\u7f51\u6700\u9ad8\u606f\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'5day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:03+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625559> (referer: None)
+2015-09-15 10:56:03+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625559>
+	{'amount': u'20000.00',
+	 'area': '',
+	 'description': u'\u529b\u6807\u56de\u6b3e\uff0c12\u70b9\u524d\u8fd8\uff0c\u8bda\u4fe1\u5df2\u52fe\uff01',
+	 'income_rate': u'5.5',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625559.html',
+	 'min_amount': '',
+	 'name': u'\u529b\u6807\u56de\u6b3e\uff0c12\u70b9\u524d\u8fd8\uff0c\u8bda\u4fe1\u5df2\u52fe\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'5day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:06+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625770> (referer: None)
+2015-09-15 10:56:06+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625770>
+	{'amount': u'6300.00',
+	 'area': '',
+	 'description': u'```````',
+	 'income_rate': u'9.2',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625770.html',
+	 'min_amount': '',
+	 'name': u'```````',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'22day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625636> (referer: None)
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625646> (referer: None)
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625636>
+	{'amount': u'12000.00',
+	 'area': '',
+	 'description': u'\u91d1\u724c\u4fe1\u8a89\uff0c\u4ece\u4e0d\u903e\u671f',
+	 'income_rate': u'8.58',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625636.html',
+	 'min_amount': '',
+	 'name': u'\u91d1\u724c\u4fe1\u8a89\uff0c\u4ece\u4e0d\u903e\u671f',
+	 'process': 41.66666666666667,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'12day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625734> (referer: None)
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625656> (referer: None)
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625663> (referer: None)
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625646>
+	{'amount': u'10000.00',
+	 'area': '',
+	 'description': u'\u7ad9\u5185\u5468\u8f6c \u8c22\u8c22\u652f\u6301',
+	 'income_rate': u'7.88',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625646.html',
+	 'min_amount': '',
+	 'name': u'\u7ad9\u5185\u5468\u8f6c \u8c22\u8c22\u652f\u6301',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625734>
+	{'amount': u'9400.00',
+	 'area': '',
+	 'description': u'\u5929\u5929\u9ad8\u606f\uff0c\u65e0\u903e\u671f\u65e0\u8fdf\u7f13\u8c22\u8c22\u652f\u6301',
+	 'income_rate': u'8.58',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625734.html',
+	 'min_amount': '',
+	 'name': u'\u5929\u5929\u9ad8\u606f\uff0c\u65e0\u903e\u671f\u65e0\u8fdf\u7f13\u8c22\u8c22\u652f\u6301',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'5day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:24+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625656>
+	{'amount': u'10000.00',
+	 'area': '',
+	 'description': u'10000',
+	 'income_rate': u'7.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625656.html',
+	 'min_amount': '',
+	 'name': u'10000',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:25+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625663>
+	{'amount': u'7969.00',
+	 'area': '',
+	 'description': u'15\u5929\uff0c\u9ad8\u4fe1\u8a89\u6c42\u79d2\uff01',
+	 'income_rate': u'9.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625663.html',
+	 'min_amount': '',
+	 'name': u'15\u5929\uff0c\u9ad8\u4fe1\u8a89\u6c42\u79d2\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'15day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:28+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625704> (referer: None)
+2015-09-15 10:56:28+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625704>
+	{'amount': u'6000.00',
+	 'area': '',
+	 'description': u'2\u5929\u65e9\u8fd8',
+	 'income_rate': u'9.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625704.html',
+	 'min_amount': '',
+	 'name': u'2\u5929\u65e9\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:30+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625739> (referer: None)
+2015-09-15 10:56:30+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625739>
+	{'amount': u'6100.00',
+	 'area': '',
+	 'description': u'\u672a\u903e\u671f\uff0c\u77ed\u63a529\u65e5\u6807\uff0c\u5f85\u6536\u4f5c\u4fdd',
+	 'income_rate': u'9.25',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625739.html',
+	 'min_amount': '',
+	 'name': u'\u672a\u903e\u671f\uff0c\u77ed\u63a529\u65e5\u6807\uff0c\u5f85\u6536\u4f5c\u4fdd',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'29day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:35+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625713> (referer: None)
+2015-09-15 10:56:35+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625713>
+	{'amount': u'10000.00',
+	 'area': '',
+	 'description': u'5\u5929\u5168\u7f51\u6700\u9ad8\u5229\u606f\u6807\uff01',
+	 'income_rate': u'8.69',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625713.html',
+	 'min_amount': '',
+	 'name': u'5\u5929\u5168\u7f51\u6700\u9ad8\u5229\u606f\u6807\uff01',
+	 'process': 59.88,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'5day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:38+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625765> (referer: None)
+2015-09-15 10:56:38+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625765>
+	{'amount': u'9700.00',
+	 'area': '',
+	 'description': u'\u77ed\u671f\u5b9d\u65e0\u903e\u671f\u8bb0\u5f55\u63d0\u73b0\u524d',
+	 'income_rate': u'10.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625765.html',
+	 'min_amount': '',
+	 'name': u'\u77ed\u671f\u5b9d\u65e0\u903e\u671f\u8bb0\u5f55\u63d0\u73b0\u524d',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1month',
+	 'transfer_claim': ''}
+2015-09-15 10:56:40+0800 [wzdai] INFO: Crawled 50 pages (at 17 pages/min), scraped 50 items (at 17 items/min)
+2015-09-15 10:56:42+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625742> (referer: None)
+2015-09-15 10:56:42+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625742>
+	{'amount': u'3000.00',
+	 'area': '',
+	 'description': u'30',
+	 'income_rate': u'10.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625742.html',
+	 'min_amount': '',
+	 'name': u'30',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'30day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:46+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625757> (referer: None)
+2015-09-15 10:56:46+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625757>
+	{'amount': u'5000.00',
+	 'area': '',
+	 'description': u'0\u903e\u671f0\u8fdf\u8fd8\uff01',
+	 'income_rate': u'11.02',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625757.html',
+	 'min_amount': '',
+	 'name': u'0\u903e\u671f0\u8fdf\u8fd8\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:50+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=624720> (referer: None)
+2015-09-15 10:56:50+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=624720>
+	{'amount': u'5000.00',
+	 'area': '',
+	 'description': u'803\u597d\u8bc4\u5c0f\u5929\u6807',
+	 'income_rate': u'8.69',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_624720.html',
+	 'min_amount': '',
+	 'name': u'803\u597d\u8bc4\u5c0f\u5929\u6807',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'40day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:54+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625727> (referer: None)
+2015-09-15 10:56:54+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625727>
+	{'amount': u'2628.00',
+	 'area': '',
+	 'description': u'2\u5929',
+	 'income_rate': u'6.8',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625727.html',
+	 'min_amount': '',
+	 'name': u'2\u5929',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:56:57+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625692> (referer: None)
+2015-09-15 10:56:57+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625692>
+	{'amount': u'4772.00',
+	 'area': '',
+	 'description': u'\u534a\u6708\u9ad8\u606f\u5fae\u6807\uff0c\u5229\u606f\u7a33\u5b9a\uff0c\u63d0\u524d\u8fd8',
+	 'income_rate': u'8.8',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625692.html',
+	 'min_amount': '',
+	 'name': u'\u534a\u6708\u9ad8\u606f\u5fae\u6807\uff0c\u5229\u606f\u7a33\u5b9a\uff0c\u63d0\u524d\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'15day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:01+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625689> (referer: None)
+2015-09-15 10:57:01+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625689>
+	{'amount': u'4300.00',
+	 'area': '',
+	 'description': u'12\u70b9\u8fd8\uff0c\u4e0d\u803d\u8bef\u63d0\u73b0',
+	 'income_rate': u'8.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625689.html',
+	 'min_amount': '',
+	 'name': u'12\u70b9\u8fd8\uff0c\u4e0d\u803d\u8bef\u63d0\u73b0',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'3day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:05+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625719> (referer: None)
+2015-09-15 10:57:05+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625719>
+	{'amount': u'5003.00',
+	 'area': '',
+	 'description': u'\u5c0f\u989d\u63d0\u73b0\u524d\u4e2d\u5348\u8fd8\uff0c\u5df2\u52fe\uff0c\u8c22\u8c22',
+	 'income_rate': u'7.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625719.html',
+	 'min_amount': '',
+	 'name': u'\u5c0f\u989d\u63d0\u73b0\u524d\u4e2d\u5348\u8fd8\uff0c\u5df2\u52fe\uff0c\u8c22\u8c22',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:09+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625572> (referer: None)
+2015-09-15 10:57:09+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625572>
+	{'amount': u'5000.00',
+	 'area': '',
+	 'description': u'\u8bda\u4fe1\u5c0f\u5929\u6807',
+	 'income_rate': u'8.59',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625572.html',
+	 'min_amount': '',
+	 'name': u'\u8bda\u4fe1\u5c0f\u5929\u6807',
+	 'process': 2.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'40day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:12+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625704> (referer: None)
+2015-09-15 10:57:12+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625704>
+	{'amount': u'6000.00',
+	 'area': '',
+	 'description': u'2\u5929\u65e9\u8fd8',
+	 'income_rate': u'9.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625704.html',
+	 'min_amount': '',
+	 'name': u'2\u5929\u65e9\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'2day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:17+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625687> (referer: None)
+2015-09-15 10:57:17+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625687>
+	{'amount': u'3350.00',
+	 'area': '',
+	 'description': u'1\u5929',
+	 'income_rate': u'6.66',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625687.html',
+	 'min_amount': '',
+	 'name': u'1\u5929',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:21+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625557> (referer: None)
+2015-09-15 10:57:21+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625557>
+	{'amount': u'1000.00',
+	 'area': '',
+	 'description': u'10d',
+	 'income_rate': u'5.88',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625557.html',
+	 'min_amount': '',
+	 'name': u'10d',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'10day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:26+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625773> (referer: None)
+2015-09-15 10:57:26+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625773>
+	{'amount': u'2000.00',
+	 'area': '',
+	 'description': u'\u4e2d\u534813:00\u524d\u65e9\u8fd8',
+	 'income_rate': u'8.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625773.html',
+	 'min_amount': '',
+	 'name': u'\u4e2d\u534813:00\u524d\u65e9\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'3day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:30+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625730> (referer: None)
+2015-09-15 10:57:30+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625730>
+	{'amount': u'1029.00',
+	 'area': '',
+	 'description': u'\u63d0\u73b0\u524d\u8fd8\uff0c\u5df2\u52fe\uff01\u77ed\u671f\u5b9d\u56de\u6b3e\u5373\u8fd8\uff01',
+	 'income_rate': u'5.88',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625730.html',
+	 'min_amount': '',
+	 'name': u'\u63d0\u73b0\u524d\u8fd8\uff0c\u5df2\u52fe\uff01\u77ed\u671f\u5b9d\u56de\u6b3e\u5373\u8fd8\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'3day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:40+0800 [wzdai] INFO: Crawled 63 pages (at 13 pages/min), scraped 63 items (at 13 items/min)
+2015-09-15 10:57:50+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625760> (referer: None)
+2015-09-15 10:57:50+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625760>
+	{'amount': u'2000.00',
+	 'area': '',
+	 'description': u'1\u5929\u5df2\u94a9\u9009\u63d0\u73b0\u524d\u8fd8 \u65e9\u4e0a\u8fd8',
+	 'income_rate': u'5.18',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625760.html',
+	 'min_amount': '',
+	 'name': u'1\u5929\u5df2\u94a9\u9009\u63d0\u73b0\u524d\u8fd8 \u65e9\u4e0a\u8fd8',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'1day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:50+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625664> (referer: None)
+2015-09-15 10:57:50+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625677> (referer: None)
+2015-09-15 10:57:50+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625308> (referer: None)
+2015-09-15 10:57:50+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625534> (referer: None)
+2015-09-15 10:57:51+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625664>
+	{'amount': u'2373.00',
+	 'area': '',
+	 'description': u'15\u5929\uff0c\u9ad8\u4fe1\u8a89\u6c42\u79d2\uff01',
+	 'income_rate': u'9.08',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625664.html',
+	 'min_amount': '',
+	 'name': u'15\u5929\uff0c\u9ad8\u4fe1\u8a89\u6c42\u79d2\uff01',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'15day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:51+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625677>
+	{'amount': u'1000.00',
+	 'area': '',
+	 'description': u'\u4e0d\u62d6\u4e0d\u6b20\uff0c\u65b0\u624b\u6807\u3002',
+	 'income_rate': u'6.15',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625677.html',
+	 'min_amount': '',
+	 'name': u'\u4e0d\u62d6\u4e0d\u6b20\uff0c\u65b0\u624b\u6807\u3002',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'7day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:51+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625308>
+	{'amount': u'500.00',
+	 'area': '',
+	 'description': u'40\u59290\u8fdf\u8fd80\u903e\u671f',
+	 'income_rate': u'9.0',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625308.html',
+	 'min_amount': '',
+	 'name': u'40\u59290\u8fdf\u8fd80\u903e\u671f',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'40day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:51+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625534>
+	{'amount': u'500.00',
+	 'area': '',
+	 'description': u'\u829d\u9ebb\u5206683',
+	 'income_rate': u'7.8',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625534.html',
+	 'min_amount': '',
+	 'name': u'\u829d\u9ebb\u5206683',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'5day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:54+0800 [wzdai] DEBUG: Crawled (200) <GET https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625682> (referer: None)
+2015-09-15 10:57:54+0800 [wzdai] DEBUG: Scraped from <200 https://www.wzdai.com/invest/ajaxDetail.html?callback=jQuery1111019497463972268458_1418355470547&id=625682>
+	{'amount': u'500.00',
+	 'area': '',
+	 'description': u'\u5c0f\u989d\u5b9d    \u7b2c7\u671f',
+	 'income_rate': u'9.58',
+	 'link': 'http://invest.wzdai.com/pagers/invest/dpbdetail_625682.html',
+	 'min_amount': '',
+	 'name': u'\u5c0f\u989d\u5b9d    \u7b2c7\u671f',
+	 'process': 0.0,
+	 'protect_mode': '',
+	 'repay_type': u'2',
+	 'reward': '',
+	 'term': u'30day',
+	 'transfer_claim': ''}
+2015-09-15 10:57:54+0800 [wzdai] INFO: Closing spider (finished)
+2015-09-15 10:57:54+0800 [wzdai] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 23233,
+	 'downloader/request_count': 69,
+	 'downloader/request_method_count/GET': 69,
+	 'downloader/response_bytes': 44494,
+	 'downloader/response_count': 69,
+	 'downloader/response_status_count/200': 69,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 15, 2, 57, 54, 85433),
+	 'item_scraped_count': 69,
+	 'log_count/DEBUG': 140,
+	 'log_count/INFO': 11,
+	 'response_received_count': 69,
+	 'scheduler/dequeued': 69,
+	 'scheduler/dequeued/memory': 69,
+	 'scheduler/enqueued': 69,
+	 'scheduler/enqueued/memory': 69,
+	 'start_time': datetime.datetime(2015, 9, 15, 2, 53, 40, 82272)}
+2015-09-15 10:57:54+0800 [wzdai] INFO: Spider closed (finished)
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+<WZDAIspider 'wzdai' at 0x7f8b8c45b450>
+2015-09-15 10:58:04 爬取结束-------------wzdai---------------------------------------

@@ -1,0 +1,51 @@
+2015-09-14 14:59:38 开始运行爬虫----------ppmoney---------------------------------------
+2015-09-14 14:59:40+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: ppmoney)
+2015-09-14 14:59:40+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-14 14:59:40+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'ppmoney.spiders', 'SPIDER_MODULES': ['ppmoney.spiders'], 'BOT_NAME': 'ppmoney'}
+2015-09-14 14:59:41+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-14 14:59:42+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-14 14:59:42+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-14 14:59:42+0800 [scrapy] INFO: Enabled item pipelines: PpmoneyPipeline
+2015-09-14 14:59:42+0800 [ppmoney] INFO: Spider opened
+2015-09-14 14:59:42+0800 [ppmoney] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:59:42+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6031
+2015-09-14 14:59:42+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6088
+2015-09-14 14:59:42+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=1> (referer: None)
+2015-09-14 14:59:46+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=2> (referer: None)
+2015-09-14 14:59:49+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=3> (referer: None)
+2015-09-14 14:59:54+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=4> (referer: None)
+2015-09-14 14:59:57+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=5> (referer: None)
+2015-09-14 15:00:01+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=6> (referer: None)
+2015-09-14 15:00:03+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=7> (referer: None)
+2015-09-14 15:00:08+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=8> (referer: None)
+2015-09-14 15:00:11+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/xiaodaibao?page=9> (referer: None)
+2015-09-14 15:00:15+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=1> (referer: None)
+2015-09-14 15:00:18+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=2> (referer: None)
+2015-09-14 15:00:22+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=3> (referer: None)
+2015-09-14 15:00:26+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=4> (referer: None)
+2015-09-14 15:00:31+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=5> (referer: None)
+2015-09-14 15:00:35+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=6> (referer: None)
+2015-09-14 15:00:38+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=7> (referer: None)
+2015-09-14 15:00:42+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=8> (referer: None)
+2015-09-14 15:00:42+0800 [ppmoney] INFO: Crawled 17 pages (at 17 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:00:46+0800 [ppmoney] DEBUG: Crawled (200) <GET http://www.ppmoney.com/zhitoubao?page=9> (referer: None)
+2015-09-14 15:00:46+0800 [ppmoney] INFO: Closing spider (finished)
+2015-09-14 15:00:46+0800 [ppmoney] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 4149,
+	 'downloader/request_count': 18,
+	 'downloader/request_method_count/GET': 18,
+	 'downloader/response_bytes': 144287,
+	 'downloader/response_count': 18,
+	 'downloader/response_status_count/200': 18,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 14, 7, 0, 46, 458412),
+	 'log_count/DEBUG': 20,
+	 'log_count/INFO': 8,
+	 'response_received_count': 18,
+	 'scheduler/dequeued': 18,
+	 'scheduler/dequeued/memory': 18,
+	 'scheduler/enqueued': 18,
+	 'scheduler/enqueued/memory': 18,
+	 'start_time': datetime.datetime(2015, 9, 14, 6, 59, 42, 403921)}
+2015-09-14 15:00:46+0800 [ppmoney] INFO: Spider closed (finished)
+2015-09-14 15:00:56 爬取结束-------------ppmoney---------------------------------------

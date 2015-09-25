@@ -1,0 +1,1465 @@
+2015-09-15 10:53:22 开始运行爬虫----------jimuhezi3---------------------------------------
+2015-09-15 10:53:29+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: jimuhezi)
+2015-09-15 10:53:29+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-15 10:53:29+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jimuhezi.spiders', 'SPIDER_MODULES': ['jimuhezi.spiders'], 'BOT_NAME': 'jimuhezi'}
+2015-09-15 10:53:29+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-15 10:53:30+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-15 10:53:30+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-15 10:53:30+0800 [scrapy] INFO: Enabled item pipelines: JimuheziPipeline
+2015-09-15 10:53:30+0800 [jimuhezi3] INFO: Spider opened
+2015-09-15 10:53:30+0800 [jimuhezi3] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-15 10:53:30+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6041
+2015-09-15 10:53:30+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6098
+2015-09-15 10:53:30+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61449> (referer: None)
+2015-09-15 10:53:30+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61449>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:31+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61756> (referer: None)
+2015-09-15 10:53:31+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61756>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:33+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61656> (referer: None)
+2015-09-15 10:53:33+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61656>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:34+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61738> (referer: None)
+2015-09-15 10:53:34+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61738>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:35+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61799> (referer: None)
+2015-09-15 10:53:35+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61799>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:37+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61768> (referer: None)
+2015-09-15 10:53:37+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61768>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:38+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61771> (referer: None)
+2015-09-15 10:53:38+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61771>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:39+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61770> (referer: None)
+2015-09-15 10:53:39+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61770>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:40+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61777> (referer: None)
+2015-09-15 10:53:40+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61777>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:41+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61776> (referer: None)
+2015-09-15 10:53:41+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61776>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:42+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61775> (referer: None)
+2015-09-15 10:53:42+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61775>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:43+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61774> (referer: None)
+2015-09-15 10:53:43+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61774>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:44+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61790> (referer: None)
+2015-09-15 10:53:44+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61790>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:45+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61779> (referer: None)
+2015-09-15 10:53:45+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61779>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:47+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61778> (referer: None)
+2015-09-15 10:53:47+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61778>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:47+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61795> (referer: None)
+2015-09-15 10:53:47+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61795>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:48+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61758> (referer: None)
+2015-09-15 10:53:48+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61758>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:50+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61797> (referer: None)
+2015-09-15 10:53:50+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61797>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:52+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61769> (referer: None)
+2015-09-15 10:53:52+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61769>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:52+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61759> (referer: None)
+2015-09-15 10:53:52+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61759>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:54+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61801> (referer: None)
+2015-09-15 10:53:54+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61801>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:55+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61800> (referer: None)
+2015-09-15 10:53:55+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61800>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:56+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61805> (referer: None)
+2015-09-15 10:53:56+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61805>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:57+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61807> (referer: None)
+2015-09-15 10:53:57+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61807>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:58+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61806> (referer: None)
+2015-09-15 10:53:58+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61806>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:53:59+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61809> (referer: None)
+2015-09-15 10:53:59+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61809>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:00+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61808> (referer: None)
+2015-09-15 10:54:00+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61808>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:00+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61750> (referer: None)
+2015-09-15 10:54:00+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61750>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:02+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61626> (referer: None)
+2015-09-15 10:54:02+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61626>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:02+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61741> (referer: None)
+2015-09-15 10:54:02+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61741>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:03+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61603> (referer: None)
+2015-09-15 10:54:03+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61603>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:05+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61760> (referer: None)
+2015-09-15 10:54:05+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61760>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:06+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61761> (referer: None)
+2015-09-15 10:54:06+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61761>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:07+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61762> (referer: None)
+2015-09-15 10:54:07+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61762>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:08+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61763> (referer: None)
+2015-09-15 10:54:08+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61763>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:09+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61579> (referer: None)
+2015-09-15 10:54:09+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61579>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:10+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61788> (referer: None)
+2015-09-15 10:54:10+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61788>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:11+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61789> (referer: None)
+2015-09-15 10:54:11+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61789>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:13+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61786> (referer: None)
+2015-09-15 10:54:13+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61786>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:14+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61787> (referer: None)
+2015-09-15 10:54:14+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61787>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:15+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61784> (referer: None)
+2015-09-15 10:54:15+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61784>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:16+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61785> (referer: None)
+2015-09-15 10:54:16+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61785>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:18+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61782> (referer: None)
+2015-09-15 10:54:18+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61782>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:19+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61783> (referer: None)
+2015-09-15 10:54:19+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61783>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:20+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61780> (referer: None)
+2015-09-15 10:54:20+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61780>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:22+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61781> (referer: None)
+2015-09-15 10:54:22+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61781>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:23+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61751> (referer: None)
+2015-09-15 10:54:23+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61751>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:24+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61757> (referer: None)
+2015-09-15 10:54:24+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61757>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:26+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61816> (referer: None)
+2015-09-15 10:54:26+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61816>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:27+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61815> (referer: None)
+2015-09-15 10:54:27+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61815>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:28+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61818> (referer: None)
+2015-09-15 10:54:28+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61818>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:29+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61810> (referer: None)
+2015-09-15 10:54:29+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61810>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:30+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61764> (referer: None)
+2015-09-15 10:54:30+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61764>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:30+0800 [jimuhezi3] INFO: Crawled 53 pages (at 53 pages/min), scraped 0 items (at 0 items/min)
+2015-09-15 10:54:31+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61494> (referer: None)
+2015-09-15 10:54:31+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61494>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:32+0800 [jimuhezi3] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61819> (referer: None)
+2015-09-15 10:54:32+0800 [jimuhezi3] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61819>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base3.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-15 10:54:32+0800 [jimuhezi3] INFO: Closing spider (finished)
+2015-09-15 10:54:32+0800 [jimuhezi3] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 18392,
+	 'downloader/request_count': 55,
+	 'downloader/request_method_count/GET': 55,
+	 'downloader/response_bytes': 238073,
+	 'downloader/response_count': 55,
+	 'downloader/response_status_count/200': 55,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 15, 2, 54, 32, 628460),
+	 'log_count/DEBUG': 57,
+	 'log_count/ERROR': 55,
+	 'log_count/INFO': 8,
+	 'response_received_count': 55,
+	 'scheduler/dequeued': 55,
+	 'scheduler/dequeued/memory': 55,
+	 'scheduler/enqueued': 55,
+	 'scheduler/enqueued/memory': 55,
+	 'spider_exceptions/IndexError': 55,
+	 'start_time': datetime.datetime(2015, 9, 15, 2, 53, 30, 831381)}
+2015-09-15 10:54:32+0800 [jimuhezi3] INFO: Spider closed (finished)
+2015-09-15 10:54:42 爬取结束-------------jimuhezi3---------------------------------------

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: webkit-server
+Version: 1.0
+Summary: a Webkit-based, headless web client
+Home-page: https://github.com/niklasb/webkit-server
+Author: Niklas Baumstark
+Author-email: niklas.baumstark@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,75 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from scrapy.contrib.spiders import CrawlSpider, Rule
+from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
+from scrapy.selector import Selector
+from scrapy.http import Request
+from paipaidai.items import PaipaidaiItem
+import urllib
+import urllib2
+import os
+import re
+import httplib
+import sys
+
+
+#爱投资对于已完成还款的标的，将不公示其信息
+class PaipaidaiSpider(CrawlSpider):
+    #  to solve the problem:'ascii' codec can't decode byte 0xe5 in position 0: ordinal not in range(128)
+    reload(sys)
+    sys.setdefaultencoding('utf8')
+    #/
+    name = 'paipaidai3'
+    allowd_domain = ['www.paipaidai.com']
+    download_delay = 2  #访问间隔秒数
+    #['https://www.itouzi.com/dinvest/invest/detail?id=44335555475675434642733d']
+    url1 = ['http://www.ppdai.com/lend/12_s0_p'+str(x) for x in range(5,7)] #热投区
+    url2 = ['http://www.ppdai.com/lend/13_s0_p'+str(x) for x in range(5,7)] #安全标专区
+    url3 = ['http://www.ppdai.com/lend/14_s0_p'+str(x) for x in range(5,7)] #逾期就赔
+    url4 = ['http://www.ppdai.com/lend/8_s0_p'+str(x) for x in range(5,7)]  #网商专区
+    url5 = ['http://www.ppdai.com/lend/3_s0_p'+str(x) for x in range(5,7)]  #二次借款
+    url6 = ['http://www.ppdai.com/lend/15_s0_p'+str(x) for x in range(5,7)] #合作机构专区
+    url7 = ['http://www.ppdai.com/lend/16_s0_p'+str(x) for x in range(5,7)] #新手福利标
+    url1.extend(url2)
+    url1.extend(url3)
+    url1.extend(url4)
+    url1.extend(url5)
+    url1.extend(url6)
+    url1.extend(url7)
+
+    start_urls = url1
+    #print start_urls
+
+    rules = (
+        Rule(SgmlLinkExtractor(allow=('/list/.*', )),
+             callback='parse_page', follow=True),
+    )
+
+
+
+    #def parse_page(self, response):
+    def parse_page(self, response):
+        item = PaipaidaiItem()
+        sel = Selector(response)
+        item['name'] = sel.xpath('//span[@class=\"\"]/text()').extract()[0]
+        item['link'] = response.url
+        item['amount'] = sel.xpath('//div[@class=\"item item1\"]/text()').extract()[1].strip()
+        item['min_amount'] = ''
+        item['income_rate'] = sel.xpath('//div[@class=\"w528 clearfix\"]/dl/dd/text()').extract()[1]
+
+        term1 = sel.xpath('//dl[@class=\"nodbr\"]/dd/text()').extract()[0]
+        term2 = sel.xpath('//dl[@class=\"nodbr\"]/dd/em/text()').extract()[0]
+        item['term'] = term1 + term2
+
+        item['area'] = ''
+        item['transfer_claim'] = ''
+        item['repay_type'] = sel.xpath('//div[@class=\"item item1\"]/text()').extract()[2].strip()
+        item['reward'] = ''
+        item['protect_mode'] = ''
+        item['description'] = sel.xpath('//div[@class=\"lendDetailTab_tabContent\"]/p/text()').extract()[0]
+        item['process'] = sel.xpath('//div[@class=\"item\"]/text()').extract()[1].strip()
+
+        #[0].encode('utf-8')
+        #[n.encode('utf-8') for n in title]
+
+        yield item

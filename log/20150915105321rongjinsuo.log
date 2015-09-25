@@ -1,0 +1,21 @@
+2015-09-15 10:53:21 开始运行爬虫----------rongjinsuo---------------------------------------
+2015-09-15 10:53:25+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: rongjinsuo)
+2015-09-15 10:53:25+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-15 10:53:25+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'rongjinsuo.spiders', 'SPIDER_MODULES': ['rongjinsuo.spiders'], 'BOT_NAME': 'rongjinsuo'}
+2015-09-15 10:53:25+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-15 10:53:26+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-15 10:53:26+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-15 10:53:26+0800 [scrapy] INFO: Enabled item pipelines: RongjinsuoPipeline
+2015-09-15 10:53:26+0800 [rongjinsuo] INFO: Spider opened
+2015-09-15 10:53:26+0800 [rongjinsuo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-15 10:53:26+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6027
+2015-09-15 10:53:26+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6084
+2015-09-15 10:53:26+0800 [rongjinsuo] INFO: Closing spider (finished)
+2015-09-15 10:53:26+0800 [rongjinsuo] INFO: Dumping Scrapy stats:
+	{'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 15, 2, 53, 26, 824289),
+	 'log_count/DEBUG': 2,
+	 'log_count/INFO': 7,
+	 'start_time': datetime.datetime(2015, 9, 15, 2, 53, 26, 817006)}
+2015-09-15 10:53:26+0800 [rongjinsuo] INFO: Spider closed (finished)
+2015-09-15 10:53:36 爬取结束-------------rongjinsuo---------------------------------------

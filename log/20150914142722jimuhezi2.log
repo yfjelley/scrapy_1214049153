@@ -1,0 +1,1016 @@
+2015-09-14 14:27:22 开始运行爬虫----------jimuhezi2---------------------------------------
+2015-09-14 14:27:35+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: jimuhezi)
+2015-09-14 14:27:35+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-14 14:27:35+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'jimuhezi.spiders', 'SPIDER_MODULES': ['jimuhezi.spiders'], 'BOT_NAME': 'jimuhezi'}
+2015-09-14 14:27:35+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-14 14:27:36+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-14 14:27:36+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-14 14:27:36+0800 [scrapy] INFO: Enabled item pipelines: JimuheziPipeline
+2015-09-14 14:27:36+0800 [jimuhezi2] INFO: Spider opened
+2015-09-14 14:27:36+0800 [jimuhezi2] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:27:36+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6041
+2015-09-14 14:27:36+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6098
+2015-09-14 14:27:37+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61449> (referer: None)
+2015-09-14 14:27:37+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61449>
+	{'amount': u'250\u4e07',
+	 'area': u'\u4e2a\u4eba\u7ecf\u8425\u5468\u8f6c',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u623f\u5c4b\u62b5\u62bc\u8d37\u6b3e\uff0c\u62b5\u62bc\u7269\u4ef7\u503c\u5145\u8db3\u3002\u672c\u9879\u76ee\u623f\u4ea7\u4f4d\u4e8e\u4e0a\u6d77\u5e02\u95fb\u559c\u8def555\u5f04\uff0c\u623f\u4ea7\u603b\u5e02\u573a\u9884\u4f30\u4ef7\u503c\u7ea6420\u4e07\u5143\u3002',
+	 'income_rate': u'9',
+	 'link': 'https://www.jimubox.com/Project/Index/61449',
+	 'min_amount': '',
+	 'name': u'\u623f\u4ea7\u62b5\u62bc\u8d37114269-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u5148\u606f\u540e\u672c',
+	 'reward': '',
+	 'term': u'6.5\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-09-12 13:04:08\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:27:37+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61756> (referer: None)
+2015-09-14 14:27:37+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61756>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:38+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61619> (referer: None)
+2015-09-14 14:27:38+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61619>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:39+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61738> (referer: None)
+2015-09-14 14:27:39+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61738>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:40+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61799> (referer: None)
+2015-09-14 14:27:40+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61799>
+	{'amount': u'2.5\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'12',
+	 'link': 'https://www.jimubox.com/Project/Index/61799',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37113754-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:57:08\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:27:42+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61768> (referer: None)
+2015-09-14 14:27:42+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61768>
+	{'amount': u'38.8\u4e07',
+	 'area': u'8%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u8d37\u6b3e\u4ea7\u54c1\u3002\u8d2d\u8f66\u4eba\u4e0e\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u7b7e\u8ba2\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u670d\u52a1\u534f\u8bae\uff0c\u59d4\u6258\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u3002\u7531\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u5ba1\u6279\u9700\u8981\u4e00\u5b9a\u7684\u65f6\u95f4\uff0c\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u53d7\u8d2d\u8f66\u4eba\u59d4\u6258\u5728\u6309\u63ed\u8d37\u6b3e\u989d\u5ea6\u5185\u5411\u79ef\u6728\u76d2\u5b50\u7533\u8bf7\u878d\u8d44\uff0c\u7528\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u653e\u6b3e\u524d\u7684\u57ab\u8d44\u4ee3\u8d2d\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61768',
+	 'min_amount': '',
+	 'name': u'\u8f66\u8f86\u5468\u8f6c\u8d37115323-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u4e00\u6b21\u8fd8\u672c\u4ed8\u606f',
+	 'reward': '',
+	 'term': u'1.83\u4e2a\u6708',
+	 'transfer_claim': u'X5 35i\u9886\u5148'}
+2015-09-14 14:27:43+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61771> (referer: None)
+2015-09-14 14:27:43+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61771>
+	{'amount': u'20\u4e07',
+	 'area': u'8%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u8d37\u6b3e\u4ea7\u54c1\u3002\u8d2d\u8f66\u4eba\u4e0e\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u7b7e\u8ba2\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u670d\u52a1\u534f\u8bae\uff0c\u59d4\u6258\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u3002\u7531\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u5ba1\u6279\u9700\u8981\u4e00\u5b9a\u7684\u65f6\u95f4\uff0c\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u53d7\u8d2d\u8f66\u4eba\u59d4\u6258\u5728\u6309\u63ed\u8d37\u6b3e\u989d\u5ea6\u5185\u5411\u79ef\u6728\u76d2\u5b50\u7533\u8bf7\u878d\u8d44\uff0c\u7528\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u653e\u6b3e\u524d\u7684\u57ab\u8d44\u4ee3\u8d2d\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61771',
+	 'min_amount': '',
+	 'name': u'\u8f66\u8f86\u5468\u8f6c\u8d37115326-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u4e00\u6b21\u8fd8\u672c\u4ed8\u606f',
+	 'reward': '',
+	 'term': u'1.83\u4e2a\u6708',
+	 'transfer_claim': u'X4 28i \u9886\u5148'}
+2015-09-14 14:27:44+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61770> (referer: None)
+2015-09-14 14:27:44+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61770>
+	{'amount': u'14.3\u4e07',
+	 'area': u'8%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u8d37\u6b3e\u4ea7\u54c1\u3002\u8d2d\u8f66\u4eba\u4e0e\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u7b7e\u8ba2\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u670d\u52a1\u534f\u8bae\uff0c\u59d4\u6258\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u3002\u7531\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u5ba1\u6279\u9700\u8981\u4e00\u5b9a\u7684\u65f6\u95f4\uff0c\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u53d7\u8d2d\u8f66\u4eba\u59d4\u6258\u5728\u6309\u63ed\u8d37\u6b3e\u989d\u5ea6\u5185\u5411\u79ef\u6728\u76d2\u5b50\u7533\u8bf7\u878d\u8d44\uff0c\u7528\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u653e\u6b3e\u524d\u7684\u57ab\u8d44\u4ee3\u8d2d\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61770',
+	 'min_amount': '',
+	 'name': u'\u8f66\u8f86\u5468\u8f6c\u8d37115325-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u4e00\u6b21\u8fd8\u672c\u4ed8\u606f',
+	 'reward': '',
+	 'term': u'1.83\u4e2a\u6708',
+	 'transfer_claim': u'320Li\u65f6\u5c1a'}
+2015-09-14 14:27:45+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61777> (referer: None)
+2015-09-14 14:27:45+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61777>
+	{'amount': u'0.5\u4e07',
+	 'area': u'11%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61777',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115127-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'29'}
+2015-09-14 14:27:47+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61776> (referer: None)
+2015-09-14 14:27:47+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61776>
+	{'amount': u'0.8\u4e07',
+	 'area': u'11%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61776',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115126-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'27'}
+2015-09-14 14:27:48+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61656> (referer: None)
+2015-09-14 14:27:48+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61656>
+	{'amount': u'20.39\u4e07',
+	 'area': u'8%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u8d37\u6b3e\u4ea7\u54c1\u3002\u8d2d\u8f66\u4eba\u4e0e\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u7b7e\u8ba2\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u670d\u52a1\u534f\u8bae\uff0c\u59d4\u6258\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u3002\u7531\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u5ba1\u6279\u9700\u8981\u4e00\u5b9a\u7684\u65f6\u95f4\uff0c\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u53d7\u8d2d\u8f66\u4eba\u59d4\u6258\u5728\u6309\u63ed\u8d37\u6b3e\u989d\u5ea6\u5185\u5411\u79ef\u6728\u76d2\u5b50\u7533\u8bf7\u878d\u8d44\uff0c\u7528\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u653e\u6b3e\u524d\u7684\u57ab\u8d44\u4ee3\u8d2d\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61656',
+	 'min_amount': '',
+	 'name': u'\u8f66\u8f86\u5468\u8f6c\u8d37114975-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u4e00\u6b21\u8fd8\u672c\u4ed8\u606f',
+	 'reward': '',
+	 'term': u'2\u4e2a\u6708',
+	 'transfer_claim': u'\u4fdd\u65f6\u6377 \u8fc8\u51efB5 \u6c7d\u6cb9\u578b'}
+2015-09-14 14:27:49+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61774> (referer: None)
+2015-09-14 14:27:49+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61774>
+	{'amount': u'3.82\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11.5',
+	 'link': 'https://www.jimubox.com/Project/Index/61774',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113852-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'18\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:03:36\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:27:51+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61790> (referer: None)
+2015-09-14 14:27:51+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61790>
+	{'amount': u'5.95\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61790',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37114290-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:05:28\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:27:52+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61779> (referer: None)
+2015-09-14 14:27:52+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61779>
+	{'amount': u'0.37\u4e07',
+	 'area': u'11%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61779',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115129-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'30'}
+2015-09-14 14:27:53+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61778> (referer: None)
+2015-09-14 14:27:53+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61778>
+	{'amount': u'1.2\u4e07',
+	 'area': u'11%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61778',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115128-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'29'}
+2015-09-14 14:27:54+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61795> (referer: None)
+2015-09-14 14:27:54+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61795>
+	{'amount': u'2\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61795',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37112065-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 19:24:25\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:27:55+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61758> (referer: None)
+2015-09-14 14:27:55+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61758>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:57+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61797> (referer: None)
+2015-09-14 14:27:57+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61797>
+	{'amount': u'20.3\u4e07',
+	 'area': u'2015-12-16',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e8c\u624b\u8f66\u7ecf\u9500\u5546\u5468\u8f6c\u878d\u8d44\u4ea7\u54c1\u3002\u672c\u4ea7\u54c1\u9879\u4e0b\u7684\u501f\u6b3e\u4eba\u4e3b\u8425\u4e1a\u52a1\u4e3a\u4e8c\u624b\u8f66\u6536\u8d2d\u53ca\u9500\u552e\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u7ecf\u8425\u5468\u8f6c\uff0c\u8fd8\u6b3e\u6765\u6e90\u4e3a\u9500\u552e\u8f66\u8f86\u7684\u7ecf\u8425\u6536\u5165\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u5411\u5e73\u53f0\u63a8\u8350\u4f18\u8d28\u4e8c\u624b\u8f66\u7ecf\u9500\u5546\uff0c\u5e76\u5bf9\u878d\u8d44\u4eba\u7684\u5e93\u5b58\u8f66\u8f86\u8fdb\u884c\u76d1\u7ba1\uff0c\u76d1\u7ba1\u65b9\u5c31\u4e0a\u8ff0\u76d1\u7ba1\u8f66\u8f86\u91c7\u53d6\u76f8\u5173\u63aa\u65bd\uff0c\u6258\u7ba1\u8f66\u8f86\u8bc1\u7167\u3001\u4fdd\u8bc1\u8f66\u8f86\u5b89\u5168\uff0c\u5e76\u76d1\u6d4b\u8f66\u8f86\u9500\u552e\u53ca\u8f66\u5546\u8d44\u91d1\u56de\u6d41\u60c5\u51b5\u6566\u4fc3\u8f66\u5546\u5c65\u884c\u8fd8\u6b3e\u4e49\u52a1\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61797',
+	 'min_amount': '',
+	 'name': u'\u8f66\u5546\u5468\u8f6c\u8d37115317-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u5148\u606f\u540e\u672c',
+	 'reward': '',
+	 'term': u'3\u4e2a\u6708',
+	 'transfer_claim': u'\u5954\u9a70 \u5954\u9a70E\u7ea7 2013\u6b3e E 300 L \u65f6\u5c1a\u578b'}
+2015-09-14 14:27:58+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61769> (referer: None)
+2015-09-14 14:27:58+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61769>
+	{'amount': u'14.04\u4e07',
+	 'area': u'8%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u8d37\u6b3e\u4ea7\u54c1\u3002\u8d2d\u8f66\u4eba\u4e0e\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u7b7e\u8ba2\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u670d\u52a1\u534f\u8bae\uff0c\u59d4\u6258\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u3002\u7531\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u5ba1\u6279\u9700\u8981\u4e00\u5b9a\u7684\u65f6\u95f4\uff0c\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u53d7\u8d2d\u8f66\u4eba\u59d4\u6258\u5728\u6309\u63ed\u8d37\u6b3e\u989d\u5ea6\u5185\u5411\u79ef\u6728\u76d2\u5b50\u7533\u8bf7\u878d\u8d44\uff0c\u7528\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u653e\u6b3e\u524d\u7684\u57ab\u8d44\u4ee3\u8d2d\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61769',
+	 'min_amount': '',
+	 'name': u'\u8f66\u8f86\u5468\u8f6c\u8d37115324-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u4e00\u6b21\u8fd8\u672c\u4ed8\u606f',
+	 'reward': '',
+	 'term': u'1.83\u4e2a\u6708',
+	 'transfer_claim': u'MINI R60'}
+2015-09-14 14:27:59+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61759> (referer: None)
+2015-09-14 14:27:59+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61759>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:01+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61801> (referer: None)
+2015-09-14 14:28:01+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61801>
+	{'amount': u'4.2\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'12',
+	 'link': 'https://www.jimubox.com/Project/Index/61801',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37114103-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 19:23:11\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:02+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61800> (referer: None)
+2015-09-14 14:28:02+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61800>
+	{'amount': u'3\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11.5',
+	 'link': 'https://www.jimubox.com/Project/Index/61800',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37114120-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'18\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 19:23:47\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:03+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61805> (referer: None)
+2015-09-14 14:28:03+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61805>
+	{'amount': u'1.91\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11.5',
+	 'link': 'https://www.jimubox.com/Project/Index/61805',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37114402-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'18\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 19:22:33\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:07+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61806> (referer: None)
+2015-09-14 14:28:07+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61806>
+	{'amount': u'2.55\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11.5',
+	 'link': 'https://www.jimubox.com/Project/Index/61806',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113845-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'18\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 19:22:02\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:07+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61807> (referer: None)
+2015-09-14 14:28:07+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61807>
+	{'amount': u'5.78\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61807',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37114574-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:37:08\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:08+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61809> (referer: None)
+2015-09-14 14:28:08+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61809>
+	{'amount': u'3.82\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11.5',
+	 'link': 'https://www.jimubox.com/Project/Index/61809',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113813-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'18\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:41:31\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:09+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61808> (referer: None)
+2015-09-14 14:28:09+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61808>
+	{'amount': u'5.95\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61808',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37114324-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:40:34\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:10+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61750> (referer: None)
+2015-09-14 14:28:10+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61750>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:11+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61626> (referer: None)
+2015-09-14 14:28:11+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61626>
+	{'amount': u'50.5\u4e07',
+	 'area': u'8%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u8d37\u6b3e\u4ea7\u54c1\u3002\u8d2d\u8f66\u4eba\u4e0e\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u7b7e\u8ba2\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u670d\u52a1\u534f\u8bae\uff0c\u59d4\u6258\u5206\u671f\u4ed8\u6b3e\u8d2d\u8f66\u3002\u7531\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u5ba1\u6279\u9700\u8981\u4e00\u5b9a\u7684\u65f6\u95f4\uff0c\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u53d7\u8d2d\u8f66\u4eba\u59d4\u6258\u5728\u6309\u63ed\u8d37\u6b3e\u989d\u5ea6\u5185\u5411\u79ef\u6728\u76d2\u5b50\u7533\u8bf7\u878d\u8d44\uff0c\u7528\u4e8e\u94f6\u884c\u6309\u63ed\u8d37\u6b3e\u653e\u6b3e\u524d\u7684\u57ab\u8d44\u4ee3\u8d2d\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61626',
+	 'min_amount': '',
+	 'name': u'\u8f66\u8f86\u5468\u8f6c\u8d37115085-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u4e00\u6b21\u8fd8\u672c\u4ed8\u606f',
+	 'reward': '',
+	 'term': u'2\u4e2a\u6708',
+	 'transfer_claim': u'\u5b9d\u9a6cX5 xDrive30i\u9886\u5148\u578b'}
+2015-09-14 14:28:12+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61603> (referer: None)
+2015-09-14 14:28:12+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61603>
+	{'amount': u'3.57\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61603',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113946-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:02:32\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:13+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61760> (referer: None)
+2015-09-14 14:28:13+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61760>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:14+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61761> (referer: None)
+2015-09-14 14:28:14+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61761>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:16+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61762> (referer: None)
+2015-09-14 14:28:16+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61762>
+	{'amount': u'2.57\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'12',
+	 'link': 'https://www.jimubox.com/Project/Index/61762',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37114909-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 10:02:28\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:17+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61763> (referer: None)
+2015-09-14 14:28:17+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61763>
+	{'amount': u'9.52\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61763',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113779-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 10:02:51\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:19+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61579> (referer: None)
+2015-09-14 14:28:19+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61579>
+	{'amount': u'115\u4e07',
+	 'area': u'\u4e2a\u4eba\u7ecf\u8425\u5468\u8f6c',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u623f\u5c4b\u62b5\u62bc\u8d37\u6b3e\uff0c\u62b5\u62bc\u7269\u4ef7\u503c\u5145\u8db3\u3002\u672c\u9879\u76ee\u623f\u4ea7\u4f4d\u4e8e\u4e0a\u6d77\u5e02\u534e\u548c\u8def255\u5f04\uff0c\u623f\u4ea7\u603b\u5e02\u573a\u9884\u4f30\u4ef7\u503c\u7ea6300\u4e07\u5143\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61579',
+	 'min_amount': '',
+	 'name': u'\u623f\u4ea7\u62b5\u62bc\u8d37113966-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u5148\u606f\u540e\u672c',
+	 'reward': '',
+	 'term': u'3.5\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-09-12 20:46:14\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:20+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61788> (referer: None)
+2015-09-14 14:28:20+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61788>
+	{'amount': u'3.57\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61788',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37114162-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:04:58\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:21+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61789> (referer: None)
+2015-09-14 14:28:21+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61789>
+	{'amount': u'2.38\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61789',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37114894-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:05:12\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:23+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61786> (referer: None)
+2015-09-14 14:28:23+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61786>
+	{'amount': u'4.76\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61786',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37114151-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:04:18\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:24+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61787> (referer: None)
+2015-09-14 14:28:24+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61787>
+	{'amount': u'2.38\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61787',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113838-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:04:38\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:25+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61784> (referer: None)
+2015-09-14 14:28:25+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61784>
+	{'amount': u'16.1\u4e07',
+	 'area': u'2015-12-15',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e8c\u624b\u8f66\u7ecf\u9500\u5546\u5468\u8f6c\u878d\u8d44\u4ea7\u54c1\u3002\u672c\u4ea7\u54c1\u9879\u4e0b\u7684\u501f\u6b3e\u4eba\u4e3b\u8425\u4e1a\u52a1\u4e3a\u4e8c\u624b\u8f66\u6536\u8d2d\u53ca\u9500\u552e\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u7ecf\u8425\u5468\u8f6c\uff0c\u8fd8\u6b3e\u6765\u6e90\u4e3a\u9500\u552e\u8f66\u8f86\u7684\u7ecf\u8425\u6536\u5165\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u5411\u5e73\u53f0\u63a8\u8350\u4f18\u8d28\u4e8c\u624b\u8f66\u7ecf\u9500\u5546\uff0c\u5e76\u5bf9\u878d\u8d44\u4eba\u7684\u5e93\u5b58\u8f66\u8f86\u8fdb\u884c\u76d1\u7ba1\uff0c\u76d1\u7ba1\u65b9\u5c31\u4e0a\u8ff0\u76d1\u7ba1\u8f66\u8f86\u91c7\u53d6\u76f8\u5173\u63aa\u65bd\uff0c\u6258\u7ba1\u8f66\u8f86\u8bc1\u7167\u3001\u4fdd\u8bc1\u8f66\u8f86\u5b89\u5168\uff0c\u5e76\u76d1\u6d4b\u8f66\u8f86\u9500\u552e\u53ca\u8f66\u5546\u8d44\u91d1\u56de\u6d41\u60c5\u51b5\u6566\u4fc3\u8f66\u5546\u5c65\u884c\u8fd8\u6b3e\u4e49\u52a1\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61784',
+	 'min_amount': '',
+	 'name': u'\u8f66\u5546\u5468\u8f6c\u8d37114932-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u5148\u606f\u540e\u672c',
+	 'reward': '',
+	 'term': u'3\u4e2a\u6708',
+	 'transfer_claim': u'\u5965\u8fea \u5965\u8feaQ5 2012\u6b3e 2.0TFSI \u8212\u9002\u578b'}
+2015-09-14 14:28:26+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61785> (referer: None)
+2015-09-14 14:28:26+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61785>
+	{'amount': u'4.76\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61785',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113954-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 16:03:56\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:28+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61782> (referer: None)
+2015-09-14 14:28:28+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61782>
+	{'amount': u'0.6\u4e07',
+	 'area': u'8%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'8',
+	 'link': 'https://www.jimubox.com/Project/Index/61782',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115132-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'3\u4e2a\u6708',
+	 'transfer_claim': u'23'}
+2015-09-14 14:28:28+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61783> (referer: None)
+2015-09-14 14:28:28+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61783>
+	{'amount': u'0.4\u4e07',
+	 'area': u'11%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61783',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115133-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'24'}
+2015-09-14 14:28:29+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61780> (referer: None)
+2015-09-14 14:28:29+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61780>
+	{'amount': u'0.38\u4e07',
+	 'area': u'11%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61780',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115130-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'29'}
+2015-09-14 14:28:31+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61781> (referer: None)
+2015-09-14 14:28:31+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61781>
+	{'amount': u'0.45\u4e07',
+	 'area': u'10%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'10',
+	 'link': 'https://www.jimubox.com/Project/Index/61781',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115131-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'9\u4e2a\u6708',
+	 'transfer_claim': u'35'}
+2015-09-14 14:28:32+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61751> (referer: None)
+2015-09-14 14:28:32+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61751>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:33+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61757> (referer: None)
+2015-09-14 14:28:33+0800 [jimuhezi2] ERROR: Spider error processing <GET https://www.jimubox.com/Project/Index/61757>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/jimuhezi/jimuhezi/spiders/base2.py", line 79, in parse
+	    name1 = sel.xpath('//div[@class=\"project-title\"]/h2/span/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:34+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61775> (referer: None)
+2015-09-14 14:28:34+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61775>
+	{'amount': u'0.3\u4e07',
+	 'area': u'11%',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u501f\u6b3e\u7528\u9014\u4e3a\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\uff0c\u878d\u8d44\u4eba\u901a\u8fc7\u5728\u79ef\u6728\u76d2\u5b50\u83b7\u53d6\u501f\u6b3e\u6e05\u507f\u4fe1\u7528\u5361\u8d26\u5355\u6765\u5b9e\u73b0\u4f4e\u6210\u672c\u5206\u671f\u8fd8\u6b3e\u7684\u76ee\u7684\u3002\u7531\u79ef\u6728\u76d2\u5b50\u8ba4\u8bc1\u7684\u5408\u4f5c\u65b9\u8d1f\u8d23\u5b9e\u9645\u8fd0\u8425\u53ca\u9879\u76ee\u7ba1\u7406\uff0c \u8fd0\u8425\u65b9\u63d0\u4f9b\u5c3d\u804c\u8c03\u67e5\u3001\u501f\u6b3e\u7528\u9014\u8ddf\u8e2a\u53ca\u8d37\u540e\u7ba1\u7406\u670d\u52a1\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61775',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37115125-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'23'}
+2015-09-14 14:28:36+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61816> (referer: None)
+2015-09-14 14:28:36+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61816>
+	{'amount': u'5.95\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61816',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37111237-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 19:20:29\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:36+0800 [jimuhezi2] INFO: Crawled 49 pages (at 49 pages/min), scraped 39 items (at 39 items/min)
+2015-09-14 14:28:37+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61815> (referer: None)
+2015-09-14 14:28:37+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61815>
+	{'amount': u'9.52\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61815',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113860-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:44:58\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:38+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61818> (referer: None)
+2015-09-14 14:28:38+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61818>
+	{'amount': u'14.27\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'https://www.jimubox.com/Project/Index/61818',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113819-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:47:46\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:38+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61810> (referer: None)
+2015-09-14 14:28:38+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61810>
+	{'amount': u'5\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'12',
+	 'link': 'https://www.jimubox.com/Project/Index/61810',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u6d88\u8d39\u8d37113835-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:54:20\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:39+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61764> (referer: None)
+2015-09-14 14:28:39+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61764>
+	{'amount': u'10.19\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'11.5',
+	 'link': 'https://www.jimubox.com/Project/Index/61764',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37114122-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'18\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 10:03:13\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:41+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61494> (referer: None)
+2015-09-14 14:28:41+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61494>
+	{'amount': u'118\u4e07',
+	 'area': u'\u4e2a\u4eba\u7ecf\u8425\u5468\u8f6c',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u623f\u5c4b\u62b5\u62bc\u8d37\u6b3e\uff0c\u62b5\u62bc\u7269\u4ef7\u503c\u5145\u8db3\u3002\u672c\u9879\u76ee\u623f\u4ea7\u4f4d\u4e8e\u4e0a\u6d77\u5e02\u677f\u6cc9\u8def1201\u5f04\uff0c\u623f\u4ea7\u603b\u5e02\u573a\u9884\u4f30\u4ef7\u503c\u7ea6305\u4e07\u5143\u3002',
+	 'income_rate': u'9',
+	 'link': 'https://www.jimubox.com/Project/Index/61494',
+	 'min_amount': '',
+	 'name': u'\u623f\u4ea7\u62b5\u62bc\u8d37113789-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u5148\u606f\u540e\u672c',
+	 'reward': '',
+	 'term': u'6.5\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-09-12 20:55:42\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:42+0800 [jimuhezi2] DEBUG: Crawled (200) <GET https://www.jimubox.com/Project/Index/61819> (referer: None)
+2015-09-14 14:28:42+0800 [jimuhezi2] DEBUG: Scraped from <200 https://www.jimubox.com/Project/Index/61819>
+	{'amount': u'5.51\u4e07',
+	 'area': u'\u5df2\u8ba4\u8bc1',
+	 'description': u'\u672c\u9879\u76ee\u4e3a\u4e2a\u4eba\u5c0f\u989d\u4fe1\u7528\u878d\u8d44\u4ea7\u54c1\uff0c\u878d\u8d44\u4eba\u5411\u79ef\u6728\u76d2\u5b50\u6838\u51c6\u7684\u5408\u4f5c\u65b9\u63d0\u4ea4\u8d37\u6b3e\u7533\u8bf7\uff0c\u5408\u4f5c\u65b9\u6309\u7167\u79ef\u6728\u76d2\u5b50\u8ba4\u53ef\u7684\u6807\u51c6\u8fdb\u884c\u8d37\u524d\u8c03\u67e5\u53ca\u5ba1\u6279\uff0c\u5e76\u8fdb\u884c\u8fd8\u6b3e\u7ba1\u7406\u3002\u79ef\u6728\u76d2\u5b50\u4e3a\u5176\u5b8c\u6210\u4e0a\u7ebf\u878d\u8d44\u670d\u52a1\uff0c\u6295\u8d44\u4eba\u4f5c\u4e3a\u8d44\u91d1\u63d0\u4f9b\u65b9\u5411\u878d\u8d44\u4eba\u652f\u4ed8\u76f8\u5e94\u501f\u6b3e\u3002',
+	 'income_rate': u'9',
+	 'link': 'https://www.jimubox.com/Project/Index/61819',
+	 'min_amount': '',
+	 'name': u'\u4e2a\u4eba\u7ecf\u8425\u8d37113972-1-1',
+	 'process': '100',
+	 'protect_mode': '',
+	 'repay_type': u'\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'6\u4e2a\u6708',
+	 'transfer_claim': u'\u6b64\u9879\u76ee\u57282015-12-10 20:48:23\r\n                    \u540e\u5141\u8bb8\u503a\u6743\u8f6c\u8ba9'}
+2015-09-14 14:28:42+0800 [jimuhezi2] INFO: Closing spider (finished)
+2015-09-14 14:28:42+0800 [jimuhezi2] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 18392,
+	 'downloader/request_count': 55,
+	 'downloader/request_method_count/GET': 55,
+	 'downloader/response_bytes': 453249,
+	 'downloader/response_count': 55,
+	 'downloader/response_status_count/200': 55,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 14, 6, 28, 42, 636758),
+	 'item_scraped_count': 45,
+	 'log_count/DEBUG': 102,
+	 'log_count/ERROR': 10,
+	 'log_count/INFO': 8,
+	 'response_received_count': 55,
+	 'scheduler/dequeued': 55,
+	 'scheduler/dequeued/memory': 55,
+	 'scheduler/enqueued': 55,
+	 'scheduler/enqueued/memory': 55,
+	 'spider_exceptions/IndexError': 10,
+	 'start_time': datetime.datetime(2015, 9, 14, 6, 27, 36, 177243)}
+2015-09-14 14:28:42+0800 [jimuhezi2] INFO: Spider closed (finished)
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+<JimuheziSpider 'jimuhezi2' at 0x7f22625e64d0>
+2015-09-14 14:28:52 爬取结束-------------jimuhezi2---------------------------------------

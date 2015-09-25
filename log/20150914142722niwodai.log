@@ -1,0 +1,1728 @@
+2015-09-14 14:27:22 开始运行爬虫----------niwodai---------------------------------------
+['https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTAFNgBmU2Y=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFPQBvU2Y=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTcFNgBuU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTQFNABmU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBT4FPQBlU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFPABmU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTIFMABiU2E=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTcFNwBkU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFPQBiU2Y=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTEFNwBmU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTEFMwBmU2U=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTAFNQBlU28=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBT4FPQBmU2U=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFNQBnU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFNgBkU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFMgBvU2E=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBT4FNABlU2A=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFNgBnU2c=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFPABgU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTUFNwBkU2A=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJnBTIFPQBmU2M=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFNgBgU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFMwBlU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTEFMABiU28=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTAFMQBiU2E=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFMQBhU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFPQBhU2Y=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTAFMgBjU28=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBT4FNgBlU2M=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTcFNwBmU2Y=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFMABnU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTIFNwBlU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTIFMwBvU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFMABhU2M=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFPABkU2U=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTAFMwBiU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFMABlU2Y=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTQFNQBmU2c=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTIFMgBuU2c=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTEFMABlU2M=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTMFMQBnU2A=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTIFNwBkU2E=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTIFMQBvU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJlBT4FNABgU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJnBTYFMwBhU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlY2015-09-14 14:27:25+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: niwodai)
+2015-09-14 14:27:25+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-14 14:27:25+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'niwodai.spiders', 'SPIDER_MODULES': ['niwodai.spiders'], 'BOT_NAME': 'niwodai'}
+2015-09-14 14:27:26+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-14 14:27:27+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-14 14:27:27+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-14 14:27:27+0800 [scrapy] INFO: Enabled item pipelines: NiwodaiPipeline
+2015-09-14 14:27:27+0800 [niwodai] INFO: Spider opened
+2015-09-14 14:27:27+0800 [niwodai] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:27:27+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6025
+2015-09-14 14:27:27+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6082
+2015-09-14 14:27:28+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJnBTIFPQBmU2M=.html> (referer: None)
+2015-09-14 14:27:28+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJnBTIFPQBmU2M=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:33+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTIFNwBkU2E=.html> (referer: None)
+2015-09-14 14:27:34+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTIFNwBkU2E=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:35+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFPQBiU2Y=.html> (referer: None)
+2015-09-14 14:27:35+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFPQBiU2Y=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:38+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJgBTIFMABhU28=.html> (referer: None)
+2015-09-14 14:27:38+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJgBTIFMABhU28=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:42+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBT4FPQBlU24=.html> (referer: None)
+2015-09-14 14:27:42+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBT4FPQBlU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:46+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJmBT4FMQBmU2M=.html> (referer: None)
+2015-09-14 14:27:46+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJmBT4FMQBmU2M=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:50+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTIFMwBuU2M=.html> (referer: None)
+2015-09-14 14:27:50+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTIFMwBuU2M=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:53+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJiBTEFMABlU2Q=.html> (referer: None)
+2015-09-14 14:27:53+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJiBTEFMABlU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:27:58+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFPABgU2I=.html> (referer: None)
+2015-09-14 14:27:58+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFPABgU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:06+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBT4FPQBmU2U=.html> (referer: None)
+2015-09-14 14:28:06+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBT4FPQBmU2U=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:07+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTIFMgBuU2c=.html> (referer: None)
+2015-09-14 14:28:07+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTIFMgBuU2c=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:12+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTAFMgBjU28=.html> (referer: None)
+2015-09-14 14:28:12+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTAFMgBjU28=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:16+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFNgBkU24=.html> (referer: None)
+2015-09-14 14:28:16+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFNgBkU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:16+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFPABkU2U=.html> (referer: None)
+2015-09-14 14:28:16+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFPABkU2U=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:22+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJtBTEFNwBiU24=.html> (referer: None)
+2015-09-14 14:28:22+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJtBTEFNwBiU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:24+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFMQBhU2I=.html> (referer: None)
+2015-09-14 14:28:24+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFMQBhU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:27+0800 [niwodai] INFO: Crawled 16 pages (at 16 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:28:30+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTQFNABmU2I=.html> (referer: None)
+2015-09-14 14:28:30+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTQFNABmU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:32+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFMgBvU2E=.html> (referer: None)
+2015-09-14 14:28:32+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFMgBvU2E=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:36+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTEFMQBuU2U=.html> (referer: None)
+2015-09-14 14:28:36+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTEFMQBuU2U=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:40+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJnBTYFMwBhU2I=.html> (referer: None)
+2015-09-14 14:28:40+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJnBTYFMwBhU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:45+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFNgBnU2c=.html> (referer: None)
+2015-09-14 14:28:45+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFNgBnU2c=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:45+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTAFMQBiU2E=.html> (referer: None)
+2015-09-14 14:28:45+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTAFMQBiU2E=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:51+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTcFNwBmU2Y=.html> (referer: None)
+2015-09-14 14:28:51+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTcFNwBmU2Y=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:52+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFMwBlU2Q=.html> (referer: None)
+2015-09-14 14:28:52+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFMwBlU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:28:56+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTMFPABvU2Q=.html> (referer: None)
+2015-09-14 14:28:56+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTMFPABvU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:00+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTAFMwBiU24=.html> (referer: None)
+2015-09-14 14:29:00+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTAFMwBiU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:02+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFNQBnU2Q=.html> (referer: None)
+2015-09-14 14:29:02+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFNQBnU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:08+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFNgBgU2Q=.html> (referer: None)
+2015-09-14 14:29:08+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFNgBgU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:15+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTEFMwBmU2U=.html> (referer: None)
+2015-09-14 14:29:15+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTEFMwBmU2U=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:16+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJkBTcFNwBlU2I=.html> (referer: None)
+2015-09-14 14:29:16+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJkBTcFNwBlU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:22+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFPABmU2Q=.html> (referer: None)
+2015-09-14 14:29:22+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFPABmU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:26+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTcFNwBkU2Q=.html> (referer: None)
+2015-09-14 14:29:26+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTcFNwBkU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:27+0800 [niwodai] INFO: Crawled 32 pages (at 16 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:29:33+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBT4FNgBlU2M=.html> (referer: None)
+2015-09-14 14:29:33+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBT4FNgBlU2M=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:34+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTMFMQBnU2A=.html> (referer: None)
+2015-09-14 14:29:34+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTMFMQBnU2A=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:37+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJhBTQFMgBjU28=.html> (referer: None)
+2015-09-14 14:29:37+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJmBTQFNwBhU2c=.html> (referer: None)
+2015-09-14 14:29:37+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJhBTQFMgBjU28=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:37+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJmBTQFNwBhU2c=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:46+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTEFMABiU28=.html> (referer: None)
+2015-09-14 14:29:46+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTEFMABiU28=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:46+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTcFNgBuU2I=.html> (referer: None)
+2015-09-14 14:29:46+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTcFNgBuU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:49+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYwJjBTIFPABnU28=.html> (referer: None)
+2015-09-14 14:29:49+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYwJjBTIFPABnU28=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:54+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYwJjBT4FNwBhU2Q=.html> (referer: None)
+2015-09-14 14:29:54+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYwJjBT4FNwBhU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:29:58+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTAFNgBmU2Y=.html> (referer: None)
+2015-09-14 14:29:58+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTAFNgBmU2Y=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:02+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCaQJjBTAFNABgU2I=.html> (referer: None)
+2015-09-14 14:30:02+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCaQJjBTAFNABgU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:05+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJjBTEFNwBlU2U=.html> (referer: None)
+2015-09-14 14:30:05+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJjBTEFNwBlU2U=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:06+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFMABhU2M=.html> (referer: None)
+2015-09-14 14:30:06+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTEFMABhU2M=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:09+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBT4FNABlU2A=.html> (referer: None)
+2015-09-14 14:30:09+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBT4FNABlU2A=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:17+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFMABlU2Y=.html> (referer: None)
+2015-09-14 14:30:17+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTYFMABlU2Y=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:17+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFPQBvU2Y=.html> (referer: None)
+2015-09-14 14:30:17+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTQFPQBvU2Y=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:22+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTEFMABlU2M=.html> (referer: None)
+2015-09-14 14:30:22+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTEFMABlU2M=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:25+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTIFMQBvU2I=.html> (referer: None)
+2015-09-14 14:30:25+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJtBTIFMQBvU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:27+0800 [niwodai] INFO: Crawled 49 pages (at 17 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:30:28+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJsBT8FNwBgU28=.html> (referer: None)
+2015-09-14 14:30:28+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJsBT8FNwBgU28=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:35+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZAJlBTcFMQBhU2I=.html> (referer: None)
+2015-09-14 14:30:35+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZAJlBTcFMQBhU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:40+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCaQJjBTcFNABhU2Y=.html> (referer: None)
+2015-09-14 14:30:40+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCaQJjBTcFNABhU2Y=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:40+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTUFNwBkU2A=.html> (referer: None)
+2015-09-14 14:30:40+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTUFNwBkU2A=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:47+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFMABnU24=.html> (referer: None)
+2015-09-14 14:30:47+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTQFMABnU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:48+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJlBT4FNABgU2Q=.html> (referer: None)
+2015-09-14 14:30:48+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYgJlBT4FNABgU2Q=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:50+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTQFNQBmU2c=.html> (referer: None)
+2015-09-14 14:30:50+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJsBTQFNQBmU2c=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:30:56+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTEFNwBmU24=.html> (referer: None)
+2015-09-14 14:30:56+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTEFNwBmU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:00+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJsBT4FNwBiU24=.html> (referer: None)
+2015-09-14 14:31:00+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJsBT4FNwBiU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:07+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTIFMwBvU2I=.html> (referer: None)
+2015-09-14 14:31:07+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTIFMwBvU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:08+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFPQBhU2Y=.html> (referer: None)
+2015-09-14 14:31:08+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTMFPQBhU2Y=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:10+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTUFPQBjU2I=.html> (referer: None)
+2015-09-14 14:31:10+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTUFPQBjU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:14+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTAFNQBlU28=.html> (referer: None)
+2015-09-14 14:31:14+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJiBTAFNQBlU28=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:22+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJmBTEFNABvU24=.html> (referer: None)
+2015-09-14 14:31:22+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJmBTEFNABvU24=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:24+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTIFNwBlU2I=.html> (referer: None)
+2015-09-14 14:31:24+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJjBTIFNwBlU2I=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:26+0800 [niwodai] DEBUG: Crawled (200) <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTIFMABiU2E=.html> (referer: None)
+2015-09-14 14:31:26+0800 [niwodai] ERROR: Spider error processing <GET https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCYwJhBTIFMABiU2E=.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/niwodai/niwodai/spiders/base.py", line 57, in parse
+	    item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 14:31:26+0800 [niwodai] INFO: Closing spider (finished)
+2015-09-14 14:31:26+0800 [niwodai] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 31856,
+	 'downloader/request_count': 65,
+	 'downloader/request_method_count/GET': 65,
+	 'downloader/response_bytes': 1074491,
+	 'downloader/response_count': 65,
+	 'downloader/response_status_count/200': 65,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 14, 6, 31, 26, 834341),
+	 'log_count/DEBUG': 67,
+	 'log_count/ERROR': 65,
+	 'log_count/INFO': 10,
+	 'response_received_count': 65,
+	 'scheduler/dequeued': 65,
+	 'scheduler/dequeued/memory': 65,
+	 'scheduler/enqueued': 65,
+	 'scheduler/enqueued/memory': 65,
+	 'spider_exceptions/IndexError': 65,
+	 'start_time': datetime.datetime(2015, 9, 14, 6, 27, 27, 193146)}
+2015-09-14 14:31:26+0800 [niwodai] INFO: Spider closed (finished)
+wVTkFY1RgUDBeaQo6VWUCYgJhBTQFMgBjU28=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJmBTEFNABvU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJsBT4FNwBiU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZQJtBTEFNwBiU24=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCZAJlBTcFMQBhU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCaQJjBTcFNABhU2Y=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWUCaQJjBTAFNABgU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYwJjBTIFPABnU28=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYwJjBT4FNwBhU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJmBTQFNwBhU2c=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJiBTEFMABlU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCYgJjBTEFNwBlU2U=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJkBTcFNwBlU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJmBT4FMQBmU2M=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTUFPQBjU2I=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTMFPABvU2Q=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTIFMwBuU2M=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJnBTEFMQBuU2U=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJgBTIFMABhU28=.html', 'https://member.niwodai.com/xiangmu/v-ADZUNlYwVTkFY1RgUDBeaQo6VWYCZQJsBT8FNwBgU28=.html']
+2015-09-14 14:31:36 爬取结束-------------niwodai---------------------------------------

@@ -1,0 +1,1174 @@
+2015-09-14 14:59:38 开始运行爬虫----------lujinsuo---------------------------------------
+2015-09-14 14:59:43+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: lujinsuo)
+2015-09-14 14:59:43+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-14 14:59:43+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'lujinsuo.spiders', 'SPIDER_MODULES': ['lujinsuo.spiders'], 'BOT_NAME': 'lujinsuo'}
+2015-09-14 14:59:43+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-14 14:59:44+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-14 14:59:44+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-14 14:59:44+0800 [scrapy] INFO: Enabled item pipelines: LujinsuoPipeline
+2015-09-14 14:59:44+0800 [lujinsuo] INFO: Spider opened
+2015-09-14 14:59:44+0800 [lujinsuo] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:59:44+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6036
+2015-09-14 14:59:44+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6093
+2015-09-14 14:59:44+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235869> from <GET https://list.lufax.com/list/productDetail?productId=235869>
+2015-09-14 14:59:48+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235868> from <GET https://list.lufax.com/list/productDetail?productId=235868>
+2015-09-14 14:59:51+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236145> from <GET https://list.lufax.com/list/productDetail?productId=236145>
+2015-09-14 14:59:55+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236162> from <GET https://list.lufax.com/list/productDetail?productId=236162>
+2015-09-14 14:59:59+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236163> from <GET https://list.lufax.com/list/productDetail?productId=236163>
+2015-09-14 15:00:02+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236146> from <GET https://list.lufax.com/list/productDetail?productId=236146>
+2015-09-14 15:00:05+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236083> from <GET https://list.lufax.com/list/productDetail?productId=236083>
+2015-09-14 15:00:10+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236129> from <GET https://list.lufax.com/list/productDetail?productId=236129>
+2015-09-14 15:00:14+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236107> from <GET https://list.lufax.com/list/productDetail?productId=236107>
+2015-09-14 15:00:18+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235891> from <GET https://list.lufax.com/list/productDetail?productId=235891>
+2015-09-14 15:00:21+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235890> from <GET https://list.lufax.com/list/productDetail?productId=235890>
+2015-09-14 15:00:26+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235897> from <GET https://list.lufax.com/list/productDetail?productId=235897>
+2015-09-14 15:00:30+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235896> from <GET https://list.lufax.com/list/productDetail?productId=235896>
+2015-09-14 15:00:33+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235895> from <GET https://list.lufax.com/list/productDetail?productId=235895>
+2015-09-14 15:00:36+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235894> from <GET https://list.lufax.com/list/productDetail?productId=235894>
+2015-09-14 15:00:39+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236079> from <GET https://list.lufax.com/list/productDetail?productId=236079>
+2015-09-14 15:00:43+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=235869> (referer: None)
+2015-09-14 15:00:43+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=235869>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:00:44+0800 [lujinsuo] INFO: Crawled 1 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:00:47+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=235868>
+2015-09-14 15:00:50+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236145>
+2015-09-14 15:00:54+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236162>
+2015-09-14 15:00:56+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236163>
+2015-09-14 15:00:59+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236146>
+2015-09-14 15:01:03+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236083>
+2015-09-14 15:01:06+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236129> (referer: None)
+2015-09-14 15:01:06+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236129>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:01:10+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236107> (referer: None)
+2015-09-14 15:01:10+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236107>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:01:14+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=235891> (referer: None)
+2015-09-14 15:01:14+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=235891>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:01:16+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=235890> (referer: None)
+2015-09-14 15:01:16+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=235890>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:01:20+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=235897>
+2015-09-14 15:01:24+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=235896> (referer: None)
+2015-09-14 15:01:24+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=235896>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:01:28+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=235895>
+2015-09-14 15:01:31+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=235894>
+2015-09-14 15:01:35+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236079>
+2015-09-14 15:01:39+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236153> from <GET https://list.lufax.com/list/productDetail?productId=236153>
+2015-09-14 15:01:43+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:01:44+0800 [lujinsuo] INFO: Crawled 6 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:01:46+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:01:50+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:01:53+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:01:57+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:02:01+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:02:05+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236152> from <GET https://list.lufax.com/list/productDetail?productId=236152>
+2015-09-14 15:02:07+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236151> from <GET https://list.lufax.com/list/productDetail?productId=236151>
+2015-09-14 15:02:11+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236099> from <GET https://list.lufax.com/list/productDetail?productId=236099>
+2015-09-14 15:02:15+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236131> from <GET https://list.lufax.com/list/productDetail?productId=236131>
+2015-09-14 15:02:19+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:02:22+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236130> from <GET https://list.lufax.com/list/productDetail?productId=236130>
+2015-09-14 15:02:26+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:02:30+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:02:33+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:02:40+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:02:44+0800 [lujinsuo] INFO: Crawled 6 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:02:44+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:02:49+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:02:53+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:02:56+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:03:00+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:03:05+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236152> (referer: None)
+2015-09-14 15:03:05+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236152>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:08+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236151>
+2015-09-14 15:03:12+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236099> (referer: None)
+2015-09-14 15:03:12+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236099>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:17+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236131>
+2015-09-14 15:03:21+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:03:24+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236130>
+2015-09-14 15:03:28+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:03:32+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:03:35+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:03:38+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:03:38+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:42+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:03:42+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:44+0800 [lujinsuo] INFO: Crawled 10 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:03:46+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:03:46+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:50+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:03:50+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:52+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:03:52+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:55+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:03:55+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:03:59+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236154> from <GET https://list.lufax.com/list/productDetail?productId=236154>
+2015-09-14 15:04:03+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:04:06+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236092> from <GET https://list.lufax.com/list/productDetail?productId=236092>
+2015-09-14 15:04:10+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:04:15+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:04:15+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:04:18+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:04:21+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:04:21+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:04:24+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:04:24+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:04:29+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:04:29+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:04:33+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236091> from <GET https://list.lufax.com/list/productDetail?productId=236091>
+2015-09-14 15:04:37+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236034> from <GET https://list.lufax.com/list/productDetail?productId=236034>
+2015-09-14 15:04:41+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236016> from <GET https://list.lufax.com/list/productDetail?productId=236016>
+2015-09-14 15:04:44+0800 [lujinsuo] INFO: Crawled 18 pages (at 8 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:04:45+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236119> from <GET https://list.lufax.com/list/productDetail?productId=236119>
+2015-09-14 15:04:49+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236118> from <GET https://list.lufax.com/list/productDetail?productId=236118>
+2015-09-14 15:04:53+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236116> from <GET https://list.lufax.com/list/productDetail?productId=236116>
+2015-09-14 15:05:00+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:05:05+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236092> (referer: None)
+2015-09-14 15:05:05+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236092>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:05:08+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:05:12+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236115> from <GET https://list.lufax.com/list/productDetail?productId=236115>
+2015-09-14 15:05:16+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:05:19+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236114> from <GET https://list.lufax.com/list/productDetail?productId=236114>
+2015-09-14 15:05:23+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236137> from <GET https://list.lufax.com/list/productDetail?productId=236137>
+2015-09-14 15:05:27+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236073> from <GET https://list.lufax.com/list/productDetail?productId=236073>
+2015-09-14 15:05:30+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236091> (referer: None)
+2015-09-14 15:05:30+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236091>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:05:33+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236034>
+2015-09-14 15:05:37+0800 [lujinsuo] DEBUG: Retrying <GET https://list.lu.com/list/productDetail?productId=236153> (failed 1 times): User timeout caused connection failure: Getting https://list.lu.com/list/productDetail?productId=236153 took longer than 180 seconds..
+2015-09-14 15:05:37+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236016> (referer: None)
+2015-09-14 15:05:37+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236016>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:05:41+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236119>
+2015-09-14 15:05:43+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236118>
+2015-09-14 15:05:44+0800 [lujinsuo] INFO: Crawled 21 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:05:48+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236116> (referer: None)
+2015-09-14 15:05:48+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236116>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:05:53+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:05:53+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:05:56+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236078> from <GET https://list.lufax.com/list/productDetail?productId=236078>
+2015-09-14 15:06:00+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:06:00+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:06:03+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236115>
+2015-09-14 15:06:06+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:06:06+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:06:10+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236114>
+2015-09-14 15:06:14+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236137>
+2015-09-14 15:06:18+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236073>
+2015-09-14 15:06:21+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235879> from <GET https://list.lufax.com/list/productDetail?productId=235879>
+2015-09-14 15:06:25+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:06:29+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236153>
+2015-09-14 15:06:32+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235880> from <GET https://list.lufax.com/list/productDetail?productId=235880>
+2015-09-14 15:06:36+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:06:40+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:06:42+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=236050> from <GET https://list.lufax.com/list/productDetail?productId=236050>
+2015-09-14 15:06:44+0800 [lujinsuo] INFO: Crawled 25 pages (at 4 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:06:46+0800 [lujinsuo] DEBUG: Redirecting (301) to <GET https://list.lu.com/list/productDetail?productId=235878> from <GET https://list.lufax.com/list/productDetail?productId=235878>
+2015-09-14 15:06:51+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236078> (referer: None)
+2015-09-14 15:06:51+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236078>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:06:53+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:06:57+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:07:02+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:07:07+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:07:09+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=235879>
+2015-09-14 15:07:13+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:07:16+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:07:20+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=235880> (referer: None)
+2015-09-14 15:07:20+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=235880>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:07:25+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:07:29+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:07:32+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://list.lu.com/list/productDetail?productId=236050> (referer: None)
+2015-09-14 15:07:32+0800 [lujinsuo] ERROR: Spider error processing <GET https://list.lu.com/list/productDetail?productId=236050>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:07:36+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=235878>
+2015-09-14 15:07:40+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:07:43+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:07:44+0800 [lujinsuo] INFO: Crawled 28 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:07:47+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:07:51+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:07:52+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:07:54+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:07:54+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:07:56+0800 [lujinsuo] DEBUG: Retrying <GET https://list.lu.com/list/productDetail?productId=236154> (failed 1 times): User timeout caused connection failure: Getting https://list.lu.com/list/productDetail?productId=236154 took longer than 180 seconds..
+2015-09-14 15:07:58+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:08:01+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:01+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:05+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:05+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:10+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:08:14+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:14+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:18+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:18+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:22+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:22+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:26+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:08:30+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:30+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:33+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET http://www.lu.com/notFound.html> from <GET https://list.lu.com/list/productDetail?productId=236154>
+2015-09-14 15:08:35+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:35+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:39+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:08:44+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:44+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:44+0800 [lujinsuo] INFO: Crawled 37 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 15:08:47+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://www.lu.com/notFound.html> from <GET http://www.lu.com/notFound.html>
+2015-09-14 15:08:52+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:52+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:55+0800 [lujinsuo] DEBUG: Redirecting (302) to <GET https://promo.lu.com/transfer/v1/notFound.html> from <GET https://www.lu.com/notFound.html>
+2015-09-14 15:08:59+0800 [lujinsuo] DEBUG: Crawled (200) <GET https://promo.lu.com/transfer/v1/notFound.html> (referer: None)
+2015-09-14 15:08:59+0800 [lujinsuo] ERROR: Spider error processing <GET https://promo.lu.com/transfer/v1/notFound.html>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/scrapy/crawl/lujinsuo/lujinsuo/spiders/base.py", line 60, in parse
+	    amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
+	exceptions.IndexError: list index out of range
+	
+2015-09-14 15:08:59+0800 [lujinsuo] INFO: Closing spider (finished)
+2015-09-14 15:08:59+0800 [lujinsuo] INFO: Dumping Scrapy stats:
+	{'downloader/exception_count': 2,
+	 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 2,
+	 'downloader/request_bytes': 36037,
+	 'downloader/request_count': 152,
+	 'downloader/request_method_count/GET': 152,
+	 'downloader/response_bytes': 624270,
+	 'downloader/response_count': 150,
+	 'downloader/response_status_count/200': 39,
+	 'downloader/response_status_count/301': 39,
+	 'downloader/response_status_count/302': 72,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 14, 7, 8, 59, 268297),
+	 'log_count/DEBUG': 154,
+	 'log_count/ERROR': 39,
+	 'log_count/INFO': 16,
+	 'response_received_count': 39,
+	 'scheduler/dequeued': 152,
+	 'scheduler/dequeued/memory': 152,
+	 'scheduler/enqueued': 152,
+	 'scheduler/enqueued/memory': 152,
+	 'spider_exceptions/IndexError': 39,
+	 'start_time': datetime.datetime(2015, 9, 14, 6, 59, 44, 384208)}
+2015-09-14 15:08:59+0800 [lujinsuo] INFO: Spider closed (finished)
+2015-09-14 15:09:09 爬取结束-------------lujinsuo---------------------------------------

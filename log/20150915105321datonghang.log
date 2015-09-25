@@ -1,0 +1,21 @@
+2015-09-15 10:53:24 开始运行爬虫----------datonghang---------------------------------------
+2015-09-15 10:53:26+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: datonghang)
+2015-09-15 10:53:26+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-15 10:53:26+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'datonghang.spiders', 'SPIDER_MODULES': ['datonghang.spiders'], 'BOT_NAME': 'datonghang'}
+2015-09-15 10:53:26+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-15 10:53:27+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-15 10:53:27+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-15 10:53:27+0800 [scrapy] INFO: Enabled item pipelines: DatonghangPipeline
+2015-09-15 10:53:27+0800 [datonghang] INFO: Spider opened
+2015-09-15 10:53:27+0800 [datonghang] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-15 10:53:27+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6035
+2015-09-15 10:53:27+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6092
+2015-09-15 10:53:27+0800 [datonghang] INFO: Closing spider (finished)
+2015-09-15 10:53:27+0800 [datonghang] INFO: Dumping Scrapy stats:
+	{'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 15, 2, 53, 27, 681423),
+	 'log_count/DEBUG': 2,
+	 'log_count/INFO': 7,
+	 'start_time': datetime.datetime(2015, 9, 15, 2, 53, 27, 673334)}
+2015-09-15 10:53:27+0800 [datonghang] INFO: Spider closed (finished)
+2015-09-15 10:53:37 爬取结束-------------datonghang---------------------------------------

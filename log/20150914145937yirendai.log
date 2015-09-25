@@ -1,0 +1,777 @@
+2015-09-14 14:59:40 开始运行爬虫----------yirendai---------------------------------------
+2015-09-14 14:59:41+0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: yirendai)
+2015-09-14 14:59:41+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-09-14 14:59:41+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'yirendai.spiders', 'SPIDER_MODULES': ['yirendai.spiders'], 'BOT_NAME': 'yirendai'}
+2015-09-14 14:59:41+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-09-14 14:59:43+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-09-14 14:59:43+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-09-14 14:59:43+0800 [scrapy] INFO: Enabled item pipelines: YirendaiPipeline
+2015-09-14 14:59:43+0800 [yirendai] INFO: Spider opened
+2015-09-14 14:59:43+0800 [yirendai] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-09-14 14:59:43+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6034
+2015-09-14 14:59:43+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6091
+2015-09-14 14:59:43+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/1> (referer: None)
+2015-09-14 14:59:46+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/2> (referer: None)
+2015-09-14 14:59:51+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/3> (referer: None)
+2015-09-14 14:59:54+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/4> (referer: None)
+2015-09-14 14:59:58+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/5> (referer: None)
+2015-09-14 15:00:02+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/6> (referer: None)
+2015-09-14 15:00:05+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/7> (referer: None)
+2015-09-14 15:00:10+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/8> (referer: None)
+2015-09-14 15:00:14+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/list/9> (referer: None)
+2015-09-14 15:00:16+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/714818> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:16+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/714818>
+	{'amount': u'38,900.00',
+	 'area': u'\u91cd\u5e86\u5e02\u5e02\u8f96\u533a\u6c99\u576a\u575d\u533a',
+	 'description': u'\u6682\u65e0\u63cf\u8ff0',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/714818',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,29\u5c81,\u91cd\u5e86\u5e02\u5e02\u8f96\u533a)',
+	 'process': u'71%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:00:20+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/706107> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:20+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/706107>
+	{'amount': u'56,100.00',
+	 'area': u'\u56db\u5ddd\u7701\u5357\u5145\u5e02\u987a\u5e86\u533a',
+	 'description': u'\u6682\u65e0\u63cf\u8ff0',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/706107',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,37\u5c81,\u56db\u5ddd\u7701\u5357\u5145\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:00:22+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/705924> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:22+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/705924>
+	{'amount': u'56,100.00',
+	 'area': u'\u6cb3\u5357\u7701\u6f2f\u6cb3\u5e02\u6e90\u6c47\u533a',
+	 'description': u'\u6211\u5728\u5355\u4f4d\u4e0a\u73ed\uff0c\u6709\u517c\u804c\uff0c\u6536\u5165\u7a33\u5b9a\uff0c\u4fe1\u7528\u826f\u597d\uff0c\u53ef\u4ee5\u6309\u65f6\u8fd8\u6b3e\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/705924',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,26\u5c81,\u6cb3\u5357\u7701\u6f2f\u6cb3\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:00:26+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/698518> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:26+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/698518>
+	{'amount': u'38,900.00',
+	 'area': u'\u6e56\u5357\u7701\u682a\u6d32\u5e02\u5929\u5143\u533a',
+	 'description': u'\u6682\u65e0\u63cf\u8ff0',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/698518',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,32\u5c81,\u6e56\u5357\u7701\u682a\u6d32\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:00:30+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/698750> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:30+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/698750>
+	{'amount': u'25,900.00',
+	 'area': u'\u6e56\u5357\u7701\u6000\u5316\u5e02\u6d2a\u6c5f\u5e02',
+	 'description': u'\u672c\u4eba\u5de5\u4f5c\u7a33\u5b9a\uff0c\u5bb6\u5ead\u548c\u7766\uff0c\u9075\u7eaa\u5b88\u6cd5\uff0c\u6709\u8fd8\u6b3e\u80fd\u529b\u3002',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/698750',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,41\u5c81,\u6e56\u5357\u7701\u6000\u5316\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:00:33+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/699234> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:33+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/699234>
+	{'amount': u'112,300.00',
+	 'area': u'\u5e7f\u4e1c\u7701\u8087\u5e86\u5e02\u5c01\u5f00\u53bf',
+	 'description': u'\u501f\u6b3e\u7528\u9014\u4e3a\u6d88\u8d39\u3001\u6bcf\u6708\u6536\u51658000\u5143\u3001\u526f\u4e1a\u6536\u516512000\u5143\u3001\u5728\u4e2d\u5171\u5e73\u51e4\u9547\u59d4\u5458\u4f1a\u5e73\u51e4\u9547\u4eba\u6c11\u653f\u5e9c\u5de5\u4f5c\u3001\u5f81\u4fe1\u4e00\u822c\u3001\u6709\u903e\u671f',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/699234',
+	 'min_amount': '',
+	 'name': u'\u65e5\u5e38\u6d88\u8d39(\u7537,41\u5c81,\u5e7f\u4e1c\u7701\u8087\u5e86\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:00:35+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/698133> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:35+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/698133>
+	{'amount': u'56,100.00',
+	 'area': u'\u6e56\u5357\u7701\u682a\u6d32\u5e02\u6538\u53bf',
+	 'description': u'\u4e2a\u4eba\u8d44\u91d1\u5468\u8f6c\uff0c\u672c\u4eba\u65e0\u5176\u4ed6\u8d1f\u503a\uff0c\u65e0\u5176\u4ed6\u4e0d\u826f\u55dc\u597d\uff0c\u6b64\u6b21\u7533\u8bf7\u671b\u5ba1\u6279\uff0c\u8c22\u8c22',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/698133',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,39\u5c81,\u6e56\u5357\u7701\u682a\u6d32\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:00:39+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/702380> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:39+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/702380>
+	{'amount': u'38,900.00',
+	 'area': u'\u6e56\u5357\u7701\u6000\u5316\u5e02\u9e64\u57ce\u533a',
+	 'description': u'\u672c\u4eba\u5de5\u4f5c\u7a33\u5b9a\uff0c\u6536\u5165\u7a33\u5b9a\uff0c\u5bb6\u5ead\u548c\u7766\uff0c\u9075\u7eaa\u5b88\u6cd5\u3002',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/702380',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,39\u5c81,\u6e56\u5357\u7701\u6000\u5316\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:00:43+0800 [yirendai] INFO: Crawled 17 pages (at 17 pages/min), scraped 8 items (at 8 items/min)
+2015-09-14 15:00:43+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/695334> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:00:43+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/695334>
+	{'amount': u'43,400.00',
+	 'area': u'\u6e56\u5317\u7701\u6b66\u6c49\u5e02\u6c5f\u5cb8\u533a',
+	 'description': u'\u4e00\u76f4\u60f3\u505a\u81ea\u5df1\u559c\u6b22\u7684\u4e8b\u4e1a\uff0c\u5e0c\u671b\u80fd\u501f\u5230\u542f\u52a8\u8d44\u91d1\uff01',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/695334',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,26\u5c81,\u6e56\u5317\u7701\u6b66\u6c49\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:00:47+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/698572> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:00:47+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/698572>
+	{'amount': u'87,900.00',
+	 'area': u'\u5e7f\u4e1c\u7701\u5e7f\u5dde\u5e02\u8d8a\u79c0\u533a',
+	 'description': u'\u8ba1\u5212\u5728\u6df1\u5733\u7f57\u6e56\u533a\u4e1c\u95e8\u5546\u5708\u5f00\u4e00\u5bb6\u6bd4\u54e5\u9e21\u6392\u52a0\u76df\u5e97\uff0c\u52a0\u76df\u53ca\u5e97\u94fa\u88c5\u4fee\u7b49\u8d39\u7528\u7ea612\u4e07\uff0c\u5e97\u79df\u62bc\u91d1\u4eba\u5de5\u7b493\u4e2a\u6708\u5185\u970015\u4e07\uff0c\u4f593\u4e07\u7528\u4e8e\u539f\u6750\u6599\u53ca\u5468\u8f6c\u8d44\u91d1\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/698572',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,27\u5c81,\u5e7f\u4e1c\u7701\u6df1\u5733\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:00:51+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/709444> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:00:51+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/709444>
+	{'amount': u'42,500.00',
+	 'area': u'\u56db\u5ddd\u7701\u963f\u575d\u85cf\u65cf\u7f8c\u65cf\u81ea\u6cbb\u5dde\u91d1\u5ddd\u53bf',
+	 'description': u'\u623f\u5c4b\u88c5\u4fee\uff0c\u6025\u9700\u501f\u6b3e\uff0c\u672c\u4eba\u5de5\u4f5c\u7a33\u5b9a\uff0c\u65e0\u8fd8\u6b3e\u538b\u529b\uff0c\u671b\u6279\u51c6\uff01\u8c22\u8c22\uff01',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/709444',
+	 'min_amount': '',
+	 'name': u'\u5bb6\u5c45\u5bb6\u88c5(\u7537,30\u5c81,\u56db\u5ddd\u7701\u963f\u575d\u85cf\u65cf\u7f8c\u65cf\u81ea\u6cbb\u5dde)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:00:53+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/703682> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:00:53+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/703682>
+	{'amount': u'21,700.00',
+	 'area': u'\u5e7f\u4e1c\u7701\u9633\u6c5f\u5e02\u9633\u6625\u5e02',
+	 'description': u'\u517c\u804c\u521b\u4e1a\u3002 \u661f\u671f\u4e09 \u53ef\u4ee5 \u89c6\u9891\u8ba4\u8bc1\uff0c\u8c22\u8c22\u3002',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/703682',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,33\u5c81,\u5e7f\u4e1c\u7701\u9633\u6c5f\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:00:56+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/106118> (referer: http://www.yirendai.com/loan/list/5)
+2015-09-14 15:00:56+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/106118>
+	{'amount': u'20,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/106118',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,41\u5c81,\u5317\u4eac\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:01:00+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/129999> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:00+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/129999>
+	{'amount': u'10,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/129999',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,25\u5c81,\u5e7f\u4e1c\u7701\u5e7f\u5dde\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:01:04+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/130497> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:04+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/130497>
+	{'amount': u'60,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/130497',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,32\u5c81,\u5317\u4eac\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:01:09+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/126509> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:09+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/126509>
+	{'amount': u'10,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/126509',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,32\u5c81,\u6c5f\u82cf\u7701\u82cf\u5dde\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:01:12+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/155815> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:12+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/155815>
+	{'amount': u'20,000.00',
+	 'area': u'\u5c71\u897f\u7701\u4e34\u6c7e\u5e02\u4faf\u9a6c\u5e02',
+	 'description': u'\u53ef\u4ee5\u8f93\u516520-1000\u4e2a\u6587\u5b57\uff0c\u60a8\u53ef\u4ee5\u63cf\u8ff0\u4e00\u4e0b\u60a8\u7684\u501f\u6b3e\u539f\u56e0\u7b49\u7b49',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/155815',
+	 'min_amount': '',
+	 'name': u'\u4e70\u8f66\u7f6e\u4e1a(\u7537,22\u5c81,\u5c71\u897f\u7701\t\u8fd0\u57ce\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:16+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/156857> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:16+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/156857>
+	{'amount': u'80,000.00',
+	 'area': u'\u5185\u8499\u53e4\u81ea\u6cbb\u533a\u9521\u6797\u90ed\u52d2\u76df\u9521\u6797\u6d69\u7279\u5e02',
+	 'description': u'\u73b0\u5728\u6240\u5728\u5355\u4f4d\u662f\u94c1\u8def\u90e8\u95e8\uff0c\u5e74\u5e95\u4f1a\u7ed9\u5206\u914d\u623f\u5b50\uff0c\u51c6\u5907\u7528\u4e00\u7b14\u8d44\u91d1\u88c5\u4fee\u623f\u5c4b\u3002\u5de5\u4f5c\u7a33\u5b9a\uff0c\u8fd8\u6b3e\u65e0\u538b\u529b\uff0c\u5e0c\u671b\u80fd\u591f\u5f97\u5230\u5e2e\u52a9\uff0c\u8c22\u8c22\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/156857',
+	 'min_amount': '',
+	 'name': u'\u5bb6\u5c45\u5bb6\u88c5(\u7537,27\u5c81,\u5185\u8499\u53e4\u81ea\u6cbb\u533a\u9521\u6797\u90ed\u52d2\u76df)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:20+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/156852> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:20+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/156852>
+	{'amount': u'50,000.00',
+	 'area': u'\u6c5f\u82cf\u7701\u65e0\u9521\u5e02\u5e02\u8f96\u533a',
+	 'description': u'\u6b64\u7b14\u6b3e\u9879\u4e13\u95e8\u7528\u4e8e\u672c\u4eba\u5bb6\u5ead\u88c5\u4fee\u7528\u9014\uff0c\u4e0d\u4f5c\u5176\u5b83\u5e94\u7528',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/156852',
+	 'min_amount': '',
+	 'name': u'\u65e5\u5e38\u6d88\u8d39(\u5973,41\u5c81,\u6c5f\u82cf\u7701\u65e0\u9521\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:24+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/156835> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:24+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/156835>
+	{'amount': u'80,000.00',
+	 'area': u'\u8d35\u5dde\u7701\u516d\u76d8\u6c34\u5e02\u949f\u5c71\u533a',
+	 'description': u'\u56e0\u670b\u53cb\u501f\u6b3e\u65e0\u6cd5\u5982\u671f\u507f\u8fd8\uff0c\u8d44\u91d1\u5468\u8f6c\u4e0d\u5f00.\u6240\u4ee5\u501f\u6b3e\u88c5\u4fee\u5468\u8f6c\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/156835',
+	 'min_amount': '',
+	 'name': u'\u5bb6\u5c45\u5bb6\u88c5(\u7537,40\u5c81,\u8d35\u5dde\u7701\u516d\u76d8\u6c34\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:27+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/156770> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:27+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/156770>
+	{'amount': u'60,000.00',
+	 'area': u'\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a\u514b\u62c9\u739b\u4f9d\u5e02\u72ec\u5c71\u5b50\u533a',
+	 'description': u'\u8ba1\u5212\u8d2d\u8f66\u3002\u672c\u4eba\u6536\u5165\u7a33\u5b9a\uff0c\u65e0\u8fd8\u6b3e\u538b\u529b\uff0c\u671b\u6279\u51c6\uff0c\u8c22\u8c22\uff01',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/156770',
+	 'min_amount': '',
+	 'name': u'\u4e70\u8f66\u7f6e\u4e1a(\u7537,41\u5c81,\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a\u514b\u62c9\u739b\u4f9d\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:31+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/156763> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:31+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/156763>
+	{'amount': u'60,000.00',
+	 'area': u'\u6cb3\u5357\u7701\u90d1\u5dde\u5e02\u4e2d\u725f\u53bf',
+	 'description': u'\u672c\u4eba\u5de5\u4f5c\u7a33\u5b9a\uff0c\u4fe1\u8a89\u826f\u597d\uff0c\u65e0\u8fd8\u6b3e\u538b\u529b\uff0c\u671b\u6279\u51c6\uff01\u8c22\u8c22\uff01',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/156763',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,27\u5c81,\u6cb3\u5357\u7701\u90d1\u5dde\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:33+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/154496> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:33+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/154496>
+	{'amount': u'50,000.00',
+	 'area': u'\u6d59\u6c5f\u7701\u7ecd\u5174\u5e02\u7ecd\u5174\u53bf',
+	 'description': u'\u6682\u65e0\u63cf\u8ff0',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/154496',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,29\u5c81,\u6d59\u6c5f\u7701\u7ecd\u5174\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:37+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/153944> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:37+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/153944>
+	{'amount': u'60,000.00',
+	 'area': u'\u798f\u5efa\u7701\u798f\u5dde\u5e02\u9f13\u697c\u533a',
+	 'description': u'\u770b\u9c9c\u82b1\u8fd9\u884c\u73b0\u5728\u7684\u4eba\u6bd4\u8f83\u591a\u7528\uff0c\u521a\u597d\u81ea\u5df1\u53c8\u4f1a\u8fd9\u624b\u827a\uff0c\u884c\u4e1a\uff0c\u5c31\u60f3\u81ea\u5df1\u5bb6\u4eba\u5f00\u5bb6\u82b1\u827a\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/153944',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,32\u5c81,\u798f\u5efa\u7701\u798f\u5dde\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:41+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/156483> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:41+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/156483>
+	{'amount': u'80,000.00',
+	 'area': u'\u5929\u6d25\u5e02\u5e02\u8f96\u533a\u6c49\u6cbd\u533a',
+	 'description': u'\u672c\u4eba\u501f\u6b3e\u88c5\u4fee\u6025\u7528\uff0c\u672c\u4eba\u65e0\u8fd8\u6b3e\u903e\u671f\u8bb0\u5f55\uff0c\u8bda\u5b9e\u5b88\u4fe1\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/156483',
+	 'min_amount': '',
+	 'name': u'\u5bb6\u5c45\u5bb6\u88c5(\u5973,49\u5c81,\u5929\u6d25\u5e02\u5e02\u8f96\u533a)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:43+0800 [yirendai] INFO: Crawled 34 pages (at 17 pages/min), scraped 25 items (at 17 items/min)
+2015-09-14 15:01:43+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/156719> (referer: http://www.yirendai.com/loan/list/9)
+2015-09-14 15:01:43+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/156719>
+	{'amount': u'150,000.00',
+	 'area': u'\u56db\u5ddd\u7701\u6210\u90fd\u5e02\u5e02\u8f96\u533a',
+	 'description': u'\u8be5\u5ba2\u6237\u4e3a\u4e8b\u4e1a\u5355\u4f4d\u4e2d\u5c42\u7ba1\u7406\u4eba\u5458\uff0c\u5de5\u4f5c\u6536\u5165\u7a33\u5b9a\uff0c\u4fe1\u7528\u8bb0\u5f55\u826f\u597d\uff0c\u5fd8\u6279\u51c6',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/156719',
+	 'min_amount': '',
+	 'name': u'\u5bb6\u5c45\u5bb6\u88c5(\u5973,43\u5c81,\u56db\u5ddd\u7701\u6210\u90fd\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:01:46+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/121509> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:46+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/121509>
+	{'amount': u'60,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/121509',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,34\u5c81,\u5317\u4eac\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:01:50+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/115972> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:50+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/115972>
+	{'amount': u'30,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/115972',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,23\u5c81,\u5e7f\u4e1c\u7701\u4e1c\u839e\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:01:53+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/118660> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:53+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/118660>
+	{'amount': u'30,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/118660',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,28\u5c81,\u5e7f\u4e1c\u7701\u4f5b\u5c71\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:01:56+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/117662> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:56+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/117662>
+	{'amount': u'30,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/117662',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,26\u5c81,\u5c71\u4e1c\u7701\u9752\u5c9b\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:01:59+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/111813> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:01:59+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/111813>
+	{'amount': u'10,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/111813',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,26\u5c81,\u6c5f\u82cf\u7701\u76d0\u57ce\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:02:02+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/111414> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:02:02+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/111414>
+	{'amount': u'50,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/111414',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u5973,25\u5c81,\u5c71\u4e1c\u7701\u9752\u5c9b\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:02:05+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/106553> (referer: http://www.yirendai.com/loan/list/6)
+2015-09-14 15:02:05+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/106553>
+	{'amount': u'30,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/106553',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,29\u5c81,\u5c71\u4e1c\u7701\u9752\u5c9b\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:02:09+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/104921> (referer: http://www.yirendai.com/loan/list/5)
+2015-09-14 15:02:09+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/104921>
+	{'amount': u'30,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/104921',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,28\u5c81,\u5c71\u4e1c\u7701\u4e34\u6c82\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:02:13+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/104141> (referer: http://www.yirendai.com/loan/list/5)
+2015-09-14 15:02:13+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/104141>
+	{'amount': u'60,000.00',
+	 'area': u'',
+	 'description': u'',
+	 'income_rate': u'10',
+	 'link': 'http://www.yirendai.com/loan/view/104141',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,37\u5c81,\u5e7f\u4e1c\u7701\u4f5b\u5c71\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'12',
+	 'transfer_claim': ''}
+2015-09-14 15:02:17+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/708315> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:02:17+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/708315>
+	{'amount': u'86,900.00',
+	 'area': u'\u5e7f\u4e1c\u7701\u6f6e\u5dde\u5e02\u9976\u5e73\u53bf',
+	 'description': u'\u6240\u8d2d\u623f\u4ea7\u6b63\u5728\u88c5\u4fee\u9636\u6bb5\uff0c\u7f3a\u5c11\u88c5\u4fee\u8d44\u91d1\u53ca\u8d2d\u4e70\u5bb6\u5177\u8d44\u91d1\uff0c\u60f3\u7533\u8bf7\u8d37\u6b3e\u3002',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/708315',
+	 'min_amount': '',
+	 'name': u'\u5bb6\u5c45\u5bb6\u88c5(\u7537,33\u5c81,\u5e7f\u4e1c\u7701\u6c55\u5934\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:02:21+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/687727> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:02:21+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/687727>
+	{'amount': u'43,400.00',
+	 'area': u'\u6c5f\u897f\u7701\u4e0a\u9976\u5e02\u4e0a\u9976\u53bf',
+	 'description': u'\u548c\u670b\u53cb\u4e00\u8d77\u6295\u8d44\u9879\u76ee\uff0c\u53ca\u517c\u804c\u521b\u4e1a\u3001\u73b0\u5728\u7f3a\u5c11\u4e00\u90e8\u5206\u8d44\u91d1\u9700\u8981\u501f\u6b3e\u4e00\u90e8\u91d1\u989d\u4f5c\u4e3a\u542f\u52a8\u8d44\u91d1\u3002',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/687727',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,26\u5c81,\u6c5f\u897f\u7701\u4e0a\u9976\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:02:26+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/704300> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:02:26+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/704300>
+	{'amount': u'126,400.00',
+	 'area': u'\u8fbd\u5b81\u7701\u5927\u8fde\u5e02\u957f\u6d77\u53bf',
+	 'description': u'\u672c\u4eba\u5de5\u4f5c\u7a33\u5b9a\uff0c\u6536\u5165\u8f83\u9ad8\uff0c\u4e5f\u6709\u5176\u4ed6\u6536\u5165\uff0c\u6709\u8f83\u5f3a\u7684\u8fd8\u6b3e\u80fd\u529b\uff0c\u4fe1\u8a89\u8f83\u9ad8\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/704300',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,46\u5c81,\u8fbd\u5b81\u7701\u5927\u8fde\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:02:30+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/700600> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:02:30+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/700600>
+	{'amount': u'54,900.00',
+	 'area': u'\u5317\u4eac\u5e02\u5e02\u8f96\u533a\u901a\u5dde\u533a',
+	 'description': u'\u6682\u65e0\u63cf\u8ff0',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/700600',
+	 'min_amount': '',
+	 'name': u'\u4e70\u8f66\u7f6e\u4e1a(\u7537,35\u5c81,\u5317\u4eac\u5e02\u5e02\u8f96\u533a)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:02:34+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/700383> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:02:34+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/700383>
+	{'amount': u'86,900.00',
+	 'area': u'\u9ed1\u9f99\u6c5f\u7701\u54c8\u5c14\u6ee8\u5e02\u9053\u91cc\u533a',
+	 'description': u'\u6682\u65e0\u63cf\u8ff0',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/700383',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,49\u5c81,\u9ed1\u9f99\u6c5f\u7701\u54c8\u5c14\u6ee8\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:02:37+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/701208> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:02:37+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/701208>
+	{'amount': u'42,100.00',
+	 'area': u'\u7518\u8083\u7701\u5b9a\u897f\u5e02\u901a\u6e2d\u53bf',
+	 'description': u'\u672c\u4eba\u540d\u4e0b\u6709\u623f\uff0c\u6709\u7a33\u5b9a\u6536\u5165\uff0c\u5de5\u4f5c\u7a33\u5b9a\uff0c\u4fe1\u7528\u826f\u597d\u3002',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/701208',
+	 'min_amount': '',
+	 'name': u'\u517c\u804c\u521b\u4e1a(\u7537,48\u5c81,\u7518\u8083\u7701\u5b9a\u897f\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:02:41+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/704968> (referer: http://www.yirendai.com/loan/list/2)
+2015-09-14 15:02:41+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/704968>
+	{'amount': u'154,400.00',
+	 'area': u'\u9655\u897f\u7701\u6986\u6797\u5e02\u795e\u6728\u53bf',
+	 'description': u'\u88c5\u4fee\u672c\u4eba\u5728\u9655\u897f\u6986\u6797\u5e02\u6a2a\u5c71\u53bf\u5357\u5927\u88571028\u53f7\u7684\u623f\u5b50\uff0c\u7528\u4e8e\u7236\u6bcd\u5c45\u4f4f',
+	 'income_rate': u'12',
+	 'link': 'http://www.yirendai.com/loan/view/704968',
+	 'min_amount': '',
+	 'name': u'\u5bb6\u5c45\u5bb6\u88c5(\u7537,38\u5c81,\u9655\u897f\u7701\u6986\u6797\u5e02)',
+	 'process': u'100%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'36',
+	 'transfer_claim': ''}
+2015-09-14 15:02:43+0800 [yirendai] INFO: Crawled 51 pages (at 17 pages/min), scraped 42 items (at 17 items/min)
+2015-09-14 15:02:45+0800 [yirendai] DEBUG: Crawled (200) <GET http://www.yirendai.com/loan/view/713443> (referer: http://www.yirendai.com/loan/list/1)
+2015-09-14 15:02:45+0800 [yirendai] DEBUG: Scraped from <200 http://www.yirendai.com/loan/view/713443>
+	{'amount': u'54,300.00',
+	 'area': u'\u5317\u4eac\u5e02\u5e02\u8f96\u533a\u6d77\u6dc0\u533a',
+	 'description': u'\u501f\u6b3e\u4e3b\u8981\u7528\u4e8e\u4e00\u4e9b\u503a\u52a1\u507f\u8fd8\u548c\u623f\u5c4b\u88c5\u4fee\u53ca\u5176\u4ed6\u6d88\u8d39',
+	 'income_rate': u'11',
+	 'link': 'http://www.yirendai.com/loan/view/713443',
+	 'min_amount': '',
+	 'name': u'\u5176\u4ed6\u7528\u9014(\u7537,25\u5c81,\u5317\u4eac\u5e02\u5e02\u8f96\u533a)',
+	 'process': u'40%',
+	 'protect_mode': u'\u98ce\u9669\u91d1\u4fdd\u969c',
+	 'repay_type': u'\u6bcf\u6708\u7b49\u989d\u672c\u606f',
+	 'reward': '',
+	 'term': u'24',
+	 'transfer_claim': ''}
+2015-09-14 15:02:45+0800 [yirendai] INFO: Closing spider (finished)
+2015-09-14 15:02:45+0800 [yirendai] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 18000,
+	 'downloader/request_count': 52,
+	 'downloader/request_method_count/GET': 52,
+	 'downloader/response_bytes': 352220,
+	 'downloader/response_count': 52,
+	 'downloader/response_status_count/200': 52,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 9, 14, 7, 2, 45, 358126),
+	 'item_scraped_count': 43,
+	 'log_count/DEBUG': 97,
+	 'log_count/INFO': 10,
+	 'request_depth_max': 1,
+	 'response_received_count': 52,
+	 'scheduler/dequeued': 52,
+	 'scheduler/dequeued/memory': 52,
+	 'scheduler/enqueued': 52,
+	 'scheduler/enqueued/memory': 52,
+	 'start_time': datetime.datetime(2015, 9, 14, 6, 59, 43, 74963)}
+2015-09-14 15:02:45+0800 [yirendai] INFO: Spider closed (finished)
+7
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+6
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+7
+<YIRENDAIspider 'yirendai' at 0x7fd3400b94d0>
+2015-09-14 15:02:55 爬取结束-------------yirendai---------------------------------------
