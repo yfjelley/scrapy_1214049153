@@ -48,7 +48,7 @@ class AnxinSpider(CrawlSpider):
         item['amount'] = sel.xpath('//div[@class=\"content\"]/p/text()').extract()[0]
         item['min_amount'] = sel.xpath('//div[@class=\"inputN\"]/span/i/text()').extract()[0]
         item['income_rate'] = sel.xpath('//div[@class=\"content\"]/p/text()').extract()[1]
-        item['term'] = sel.xpath('//div[@class=\"content\"]/span/text()').extract()[1]
+        item['term'] = sel.xpath('//div[@class=\"content\"]/p/text()').extract()[2]
         item['area'] = ''
         item['transfer_claim'] = ''
         item['repay_type'] = sel.xpath('//div[@class=\"content\"]/span/text()').extract()[1]

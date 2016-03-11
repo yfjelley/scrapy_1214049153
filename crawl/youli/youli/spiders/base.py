@@ -43,13 +43,23 @@ class TianyanSpider(CrawlSpider):
         item['link'] = response.url
         item['amount'] = sel.xpath('//dl[@class=\"f\"]/dd/em/text()').extract()[0]
         item['min_amount'] = ''
-
-        income_rate1 = sel.xpath('//div[@class=\"profit\"]/dl/dd/em/text()').extract()[1]
-        income_rate2 = sel.xpath('//span[@class=\"flot\"]/text()').extract()[0]
+        try:
+            income_rate1 = sel.xpath('//div[@class=\"profit\"]/dl/dd/em/text()').extract()[1]
+        except:
+            income_rate1 = ''
+        try:
+            income_rate2 = sel.xpath('//span[@class=\"flot\"]/text()').extract()[0]
+        except:
+            income_rate2 = ''
         item['income_rate'] = income_rate1 + income_rate2
-
-        term1 = sel.xpath('//div[@class=\"profit\"]/dl/dd/em/text()').extract()[2].strip()
-        term2 = sel.xpath('//div[@class=\"profit\"]/dl/dd/text()').extract()[3].strip()
+        try:
+            term1 = sel.xpath('//div[@class=\"profit\"]/dl/dd/em/text()').extract()[2].strip()
+        except:
+            term1 = ''
+        try:
+            term2 = sel.xpath('//div[@class=\"profit\"]/dl/dd/text()').extract()[3].strip()
+        except:
+            term2 = ''
         item['term'] = term1 + term2
 
         item['area'] = ''
@@ -73,13 +83,23 @@ class TianyanSpider(CrawlSpider):
         item['link'] = response.url
         item['amount'] = sel.xpath('//dl[@class=\"f\"]/dd/em/text()').extract()[0]
         item['min_amount'] = ''
-
-        income_rate1 = sel.xpath('//div[@class=\"profit\"]/dl/dd/em/text()').extract()[1]
-        income_rate2 = sel.xpath('//span[@class=\"flot\"]/text()').extract()[0]
-        item['income_rate'] = income_rate1 + income_rate2
-
-        term1 = sel.xpath('//div[@class=\"profit\"]/dl/dd/em/text()').extract()[2].strip()
-        term2 = sel.xpath('//div[@class=\"profit\"]/dl/dd/text()').extract()[3].strip()
+        try:
+            income_rate1 = sel.xpath('//div[@class=\"profit profit-lottery\"]/dl/dd/em/text()').extract()[1]
+        except:
+            income_rate1 = ''
+        try:
+            income_rate2 = sel.xpath('//span[@class=\"flot\"]/em/text()').extract()[0]
+        except:
+            income_rate2 = ''
+        item['income_rate'] = income_rate1
+        try:
+            term1 = sel.xpath('//div[@class=\"profit\"]/dl/dd/em/text()').extract()[2].strip()
+        except:
+            term1 = ''
+        try:
+            term2 = sel.xpath('//div[@class=\"profit\"]/dl/dd/text()').extract()[3].strip()
+        except:
+            term2 = ''
         item['term'] = term1 + term2
 
         item['area'] = ''

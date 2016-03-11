@@ -32,7 +32,7 @@ class LujinsuoSpider(CrawlSpider):
 
         wp = urllib2.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
-        content_productid = re.findall('\"productId\":'r'\d{6}', content) #获取 （"productid":） 及其后6位的id
+        content_productid = re.findall('\"productId\":'r'\d{7}', content) #获取 （"productid":） 及其后7位的id
         content_url = [content_index.replace('\"productId\":',
                                                      'https://list.lufax.com/list/productDetail?productId=')
                                                     for content_index in content_productid]  #替换url
@@ -57,18 +57,41 @@ class LujinsuoSpider(CrawlSpider):
         #title2 = title1.extract().split(",")[1].split("-")[0]
         item['name'] = sel.xpath('//title/text()').extract()[0][0:-10]
         item['link'] = response.url
-        amount = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[0]
-        item['amount'] = amount.split(" ")[0] #截取空格钱第一个字段
+        item['amount'] = sel.xpath('//table[@class=\"product-description\"]/tr/td/strong/text()').extract()[0]
         item['min_amount'] = ''
-        item['income_rate'] = sel.xpath('//strong[@class=\"tips-title\"]/text()').extract()[0]
-        item['term'] = sel.xpath('//ul[@class=\"clearfix detail-info-list\"]/li/p/strong/text()').extract()[2]
+        try:
+            item['income_rate'] = sel.xpath('//ul[@class=\"main-info isFourCol clearfix\"]/li/p/strong/text()').extract()[0]
+        except:
+            item['income_rate'] = ''
+        try:
+            item['term'] = sel.xpath('//ul[@class=\"main-info isFourCol clearfix\"]/li/p/strong/text()').extract()[1]
+        except:
+            item['term'] = ''
         item['area'] = ''
         item['transfer_claim'] = ''
-        item['repay_type'] = sel.xpath('//span[@class=\"tips-title\"]/text()').extract()[0]
-        item['reward'] = sel.xpath('//span[@class=\"description\"]/text()').extract()[0].strip()
-        item['protect_mode'] = sel.xpath('//span[@class=\"tips-title\"]/text()').extract()[1]
-        item['description'] = sel.xpath('//table[@class=\"product-description\"]/tr/td/text()').extract()[5]
-        item['process'] = sel.xpath('//span[@class=\"progressTxt\"]/text()').extract()[0]
+        try:
+            item['repay_type'] = sel.xpath('//ul[@class=\"main-info isFourCol clearfix\"]/li/p/strong/text()').extract()[2]
+        except:
+            item['repay_type'] = ''
+        try:
+            item['reward'] = sel.xpath('//div[@class=\"rewards-info\"]/span/span/text()').extract()[0]
+        except:
+            item['reward'] = ''
+        try:
+            item['protect_mode'] = sel.xpath('//span[@class=\"tips-title\"]/text()').extract()[0]
+        except:
+            item['protect_mode']=''
+        try:
+            item['description'] = sel.xpath('//tr[4]/td[2]/strong/text()').extract()[0]
+        except:
+            item['description']=''
+        try:
+            item['process'] = sel.xpath('//span[@class=\"progressTxt\"]/text()').extract()[0]
+        except:
+            item['process']='100%'
+
+
+
 
         #[0].encode('utf-8')
         #[n.encode('utf-8') for n in title]

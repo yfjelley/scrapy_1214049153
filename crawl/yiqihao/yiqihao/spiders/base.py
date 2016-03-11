@@ -68,9 +68,13 @@ class YiqihaoSpider(CrawlSpider):
         item['protect_mode'] = ''
         item['description'] = sel.xpath('//div[@id=\"des\"]/text()').extract()[0].strip()
 
-        process1 = sel.xpath('//span[@class=\"bold\"]/text()').extract()[1]
-        process2 = sel.xpath('//span[@class=\"bold\"]/text()').extract()[2]
-        item['process'] = process1 + '/' + process2
+        process1 = int(sel.xpath('//span[@class=\"bold\"]/text()').extract()[1][:-1])
+        process2 = int(sel.xpath('//span[@class=\"bold\"]/text()').extract()[2][:-1])
+        if process2 == 0:
+            item['process'] = '100%'
+        else:
+            item['process'] = str(round((float(process1)/(process1+process2)),2))+'%'
+
 
         #[0].encode('utf-8')
         #[n.encode('utf-8') for n in title]

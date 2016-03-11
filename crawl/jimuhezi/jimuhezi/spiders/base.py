@@ -95,7 +95,10 @@ class JimuheziSpider(CrawlSpider):
             item['transfer_claim'] = transfer_claim[0].strip()
         else:
             item['transfer_claim'] = ''
-        item['repay_type'] = sel.xpath('//p[@class=\"project-attribute\"]/span/text()').extract()[2].strip()
+        try:
+            item['repay_type'] = sel.xpath('//html/body/div[3]/div/article/p[1]/span[1]/text()').extract()[0].strip()
+        except:
+            item['repay_type'] = ''
         item['reward'] = ''
         protect_mode = sel.xpath(u'//a[@title=\"点击查看担保公司信息\"]/text()').extract()
         if protect_mode:

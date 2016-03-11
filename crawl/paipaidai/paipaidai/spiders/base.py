@@ -53,22 +53,27 @@ class PaipaidaiSpider(CrawlSpider):
         item = PaipaidaiItem()
         sel = Selector(response)
         item['name'] = sel.xpath('//span[@class=\"\"]/text()').extract()[0]
+        print item['name']
         item['link'] = response.url
-        item['amount'] = sel.xpath('//dd[@id=\"listRestMoney\"]/text()').extract()[0].strip()
+        item['amount'] = sel.xpath('/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/dl[1]/dd/text()').extract()[0].strip()
         item['min_amount'] = ''
-        item['income_rate'] = sel.xpath('//div[@class=\"w528 clearfix\"]/dl/dd/text()').extract()[1]
+        item['income_rate'] = sel.xpath('/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/dl[2]/dd/text()').extract()[0].strip()
 
-        term1 = sel.xpath('//dl[@class=\"nodbr\"]/dd/text()').extract()[0]
-        term2 = sel.xpath('//dl[@class=\"nodbr\"]/dd/em/text()').extract()[0]
-        item['term'] = term1 + term2
+        item['term'] =  sel.xpath('/html/body/div[3]/div[2]/div[1]/div[1]/div[2]/dl[3]/dd/text()').extract()[0].strip()
+
 
         item['area'] = ''
         item['transfer_claim'] = ''
-        item['repay_type'] = sel.xpath('//div[@class=\"item item1\"]/text()').extract()[2].strip()
+        item['repay_type'] = sel.xpath('/html/body/div[3]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/text()').extract()[0].strip().split(":")[1]
+
         item['reward'] = ''
         item['protect_mode'] = ''
-        item['description'] = sel.xpath('//div[@class=\"lendDetailTab_tabContent\"]/p/text()').extract()[0]
-        item['process'] = sel.xpath('//div[@class=\"item\"]/text()').extract()[1].strip()
+        try:
+            item['description'] = sel.xpath('/html/body/div[3]/div[3]/div/p/text()').extract()[0].strip()
+        except:
+            item['description']=''
+        item['process'] = sel.xpath('/html/body/div[3]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/text()').extract()[1].strip()
+
 
         #[0].encode('utf-8')
         #[n.encode('utf-8') for n in title]

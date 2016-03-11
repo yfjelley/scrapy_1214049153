@@ -20,7 +20,7 @@ class NiwodaiSpider(CrawlSpider):
     #for循环开始：访问产品列表的10个页面
     for i in range(1,10) :
         url_js = 'https://member.niwodai.com/loan/loan.do?totalCount=388&pageNo=' + str(i)
-        print url_js
+
         wp = urllib2.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
         content_productid = re.findall('_blank\" href=\"/xiangmu/v'r'[\S]*', content) #获取 （"productid":） 及其后6位的id
@@ -50,11 +50,14 @@ class NiwodaiSpider(CrawlSpider):
 
         item['area'] = ''
         item['transfer_claim'] = ''
-        item['repay_type'] = sel.xpath('//ul[@class=\"clearfix line2 b_border\"]/li/span/text()').extract()[0]
+        item['repay_type'] = sel.xpath('//ul[@class=\"clearfix line2 b_border\"]/li/span/text()').extract()[1]
         item['reward'] = ''
 
         item['protect_mode'] = ''
-        item['description'] = sel.xpath('//p[@class=\"fc_6 text\"]/text()').extract()[0]
+        try:
+            item['description'] = sel.xpath('//div[@class=\"l mb_30\"]/p/text()').extract()[0]
+        except:
+            item['description'] = ''
         item['process'] = sel.xpath('//ul[@class=\"clearfix line2\"]/li/text()').extract()[1]
 
         yield item

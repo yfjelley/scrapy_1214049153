@@ -12,6 +12,7 @@ import re
 
 class DatonghangSpider(CrawlSpider):
     name = 'datonghang'
+
     allowd_domain = ['www.dtcash.com']
 
     #删除文件start
@@ -25,10 +26,12 @@ class DatonghangSpider(CrawlSpider):
 
     #for循环开始：访问产品列表的10个页面
     for i in range(1,10) :
+
         url_js = 'http://www.dtcash.com/product/list/' + str(i) + '-0-0.html'
-        #print(url_js)
+
         wp = urllib.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
+
         content_productid = re.findall('/Product/Index/'r'\d{8}', content) #获取 （"productid":） 及其后6位的id
         content_url = [content_index.replace('/Product/Index/',
                                                      'http://www.dtcash.com/Product/Index/')
@@ -44,6 +47,7 @@ class DatonghangSpider(CrawlSpider):
     #for循环结束
 
     start_urls = set(url_list) #start_urls赋值
+ 
 
     def parse(self, response):
         item = DatonghangItem()

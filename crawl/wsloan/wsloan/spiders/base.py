@@ -26,21 +26,35 @@ class WSLOANspider(CrawlSpider):
     def parse_page(self, response):
         item = WsloanItem()
         sel = Selector(response)
-        item['name'] = sel.xpath('//span[@class=\"red\"]/text()').extract()[0]
+        item['name'] = sel.xpath('//*[@id="main"]/div[2]/div/div[1]/h3/text()').extract()[0]
         link = response.url
         item['link']  = link
-        amount = sel.xpath('//span[@class=\"m fs\"]/text()').extract()[0]
-        item['amount'] = amount[1:]
-        item['income_rate'] = sel.xpath('//span[@class=\"l2 fs\"]/text()').extract()[0]
-        item['term'] = sel.xpath('//span[@class=\"l2 fs\"]/text()').extract()[1]
-        item['repay_type'] = sel.xpath('//div[@class=\"row-l\"]/text()').extract()[2][12:]
+
+        item['amount'] = sel.xpath('//*[@id="main"]/div[2]/div/div[1]/ul/li[1]/i/text()').extract()[0]
+        item['income_rate'] = sel.xpath('//*[@id="main"]/div[2]/div/div[1]/ul/li[3]/label/i/text()').extract()[0]
+        item['term'] = sel.xpath('//*[@id="main"]/div[2]/div/div[1]/ul/li[2]/label/i/text()').extract()[0]
+        item['repay_type'] = sel.xpath('//tr[2]/td[1]/span/text()').extract()[0]
         item['area'] = ''
-        item['reward'] = sel.xpath('//span[@class=\"l2 fs\"]/text()').extract()[2]
+        try:
+            item['reward'] = sel.xpath('//span[@class=\"l2 fs\"]/text()').extract()[2]
+        except:
+            item['reward'] = ''
         item['protect_mode'] = ''
-        item['description'] = sel.xpath('//span[@class=\"red\"]/text()').extract()[0]
-        item['process'] =  sel.xpath('//div[@class=\"row-l\"]/span/text()').extract()[4]
+        try:
+            item['description'] =  sel.xpath('//tr[2]/td/p/text()').extract()[0]
+        except:
+            item['description'] = ''
+
+        try:
+        	  item['process'] = sel.xpath('//li[@class=\"invrate\"]/font/text()').extract()[0]
+            #item['process'] = sel.xpath('//tr[6]/td/text()').extract()[0]
+        except:
+            item['process'] = ''
         item['transfer_claim'] = ''
-        item['min_amount'] = sel.xpath('//div[@class=\"row-l\"]/span/text()').extract()[6][1:]
+        try:
+            item['min_amount'] = sel.xpath('//tr[7]/td/text()').extract()[0]
+        except:
+            item['min_amount'] = ''
         yield item
 
 

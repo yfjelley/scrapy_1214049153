@@ -26,12 +26,12 @@ class ItouziSpider(CrawlSpider):
     download_delay = 3  #访问间隔秒数
 
     #for循环开始：访问产品列表的10个页面
-    for x in range(1,5) :
+    for x in range(1,2) :
         url_js = 'http://www.itouzi.com/dinvest/ajax/list?page='+str(x)+'&type=2'
 
         wp = urllib2.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
-        content_productid = re.findall('id='r'\S{24}', content) #获取 （"productid":） 及其后6位的id
+        content_productid = re.findall('id='r'\S{46}', content) #获取 （"productid":） 及其后6位的id
         #content_url = [content_index.replace('http://www.anxin.com/invest/',
          #                                            'https://member.niwodai.com/xiangmu/v')
           #                                          for content_index in content_productid]  #替换url
@@ -39,12 +39,12 @@ class ItouziSpider(CrawlSpider):
                                                  'http://www.itouzi.com/dinvest/invest/detail?id=')
                                                 for content_index1 in content_productid]  #替换链接最后一个“
         url_list.extend(content_url1) #将content_url里的url迭代写入url_list
-    for x in range(1,5) :
+    for x in range(1,2) :
         url_js = 'http://www.itouzi.com/dinvest/ajax/list?page='+str(x)+'&type=6'
 
         wp = urllib2.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
-        content_productid2 = re.findall('id='r'\S{24}', content) #获取 （"productid":） 及其后6位的id
+        content_productid2 = re.findall('id='r'\S{46}', content) #获取 （"productid":） 及其后6位的id
         #content_url = [content_index.replace('http://www.anxin.com/invest/',
          #                                            'https://member.niwodai.com/xiangmu/v')
           #                                          for content_index in content_productid]  #替换url
@@ -52,12 +52,12 @@ class ItouziSpider(CrawlSpider):
                                                  'http://www.itouzi.com/dinvest/factoring/detail?id=')
                                                 for content_index2 in content_productid2]  #替换链接最后一个“
         url_list.extend(content_url2) #将content_url里的url迭代写入url_list
-    for x in range(1,5) :
+    for x in range(1,2) :
         url_js = 'http://www.itouzi.com/dinvest/ajax/list?page='+str(x)+'&type=5'
         print url_js
         wp = urllib2.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
-        content_productid3 = re.findall('id='r'\S{24}', content) #获取 （"productid":） 及其后6位的id
+        content_productid3 = re.findall('id='r'\S{46}', content) #获取 （"productid":） 及其后6位的id
         #content_url = [content_index.replace('http://www.anxin.com/invest/',
          #                                            'https://member.niwodai.com/xiangmu/v')
           #                                          for content_index in content_productid]  #替换url
@@ -65,12 +65,12 @@ class ItouziSpider(CrawlSpider):
                                                  'http://www.itouzi.com/dinvest/lease/detail?id=')
                                                 for content_index3 in content_productid3]  #替换链接最后一个“
         url_list.extend(content_url3) #将content_url里的url迭代写入url_list
-    for x in range(1,5) :
+    for x in range(1,2) :
         url_js = 'http://www.itouzi.com/dinvest/ajax/list?page='+str(x)+'&type=7'
 
         wp = urllib2.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
-        content_productid4 = re.findall('id='r'\S{24}', content) #获取 （"productid":） 及其后6位的id
+        content_productid4 = re.findall('id='r'\S{46}', content) #获取 （"productid":） 及其后6位的id
         #content_url = [content_index.replace('http://www.anxin.com/invest/',
          #                                            'https://member.niwodai.com/xiangmu/v')
           #                                          for content_index in content_productid]  #替换url
@@ -81,7 +81,6 @@ class ItouziSpider(CrawlSpider):
     #for循环结束
 
     start_urls = set(url_list) #start_urls赋值,并去重
-    print start_urls
 
     #def parse_page(self, response):
     def parse(self, response):
@@ -106,7 +105,7 @@ class ItouziSpider(CrawlSpider):
 
         item['min_amount'] = ''
         try:
-            item['income_rate'] = sel.xpath('//div[@class=\"invest-case-detail clearfix\"]/span/em/text()').extract()[0]
+            item['income_rate'] = sel.xpath('//em[@class=\"fs-xl strong\"]/text()').extract()[0]
         except:
             item['income_rate'] = ''
         term1 = sel.xpath('//div[@class=\"i-p-i-c-condition clearfix\"]/dl/dd/strong/text()').extract()[0]

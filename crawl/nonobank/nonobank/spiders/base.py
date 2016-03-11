@@ -55,23 +55,46 @@ class NonobankSpider(CrawlSpider):
     def parse(self, response):
         item = NonobankItem()
         sel = Selector(response)
-        #item['link'] = sel.xpath('//a[@class=\"viewBtn\"]/@href').extract()
-        #title1 = title[0]
-        #title2 = title1.extract().split(",")[1].split("-")[0]
-        item['name'] = sel.xpath('//div[@class=\"info_list\"]/div/text()').extract()[0]
+        try:
+            item['name'] = sel.xpath('//*[@id="lenddetail"]/div[2]/div[1]/text()').extract()[0]
+            #item['name'] = sel.xpath('//div[@class=\"info_list\"]/div/text()').extract()[0]
+        except:
+            item['name'] = ''
         item['link'] = response.url
-        item['amount'] = sel.xpath('//div[@class=\"info_list_right\"]/ul/li/text()').extract()[0]
+        try:
+            item['amount'] = sel.xpath('//*[@id="lenddetail"]/div[2]/div[2]/div[1]/ul/li[1]/p/span/text()').extract()[0]
+            #item['amount'] = sel.xpath('//div[@class=\"info_list_right\"]/ul/li/text()').extract()[0]
+        except:
+            item['amount'] = ''
         item['min_amount'] = ''
-        item['income_rate'] = sel.xpath('//div[@class=\"info_list_left\"]/ul/li/text()').extract()[0]
-        item['term'] = sel.xpath('//div[@class=\"info_list_right\"]/ul/li/text()').extract()[1]
+        try:
+            item['income_rate'] = sel.xpath('//*[@id="lenddetail"]/div[2]/div[2]/div[1]/ul/li[2]/p/span/text()').extract()[0]
+            #item['income_rate'] = sel.xpath('//div[@class=\"info_list_left\"]/ul/li/text()').extract()[0]
+        except:
+            item['income_rate']=''
+        try:
+            item['term'] = sel.xpath('//*[@id="lenddetail"]/div[2]/div[2]/div[1]/ul/li[3]/p/span/text()').extract()[0]
+        except:
+            item['term'] =''
         item['area'] = ''
         item['transfer_claim'] = ''
-        item['repay_type'] = sel.xpath('//div[@class=\"info_list_left\"]/ul/li/text()').extract()[3]
+        try:
+            item['repay_type'] = sel.xpath('//*[@id="lenddetail"]/div[2]/div[2]/div[2]/ul[1]/li[2]/text()').extract()[0].split(u'：')[1]
+        except:
+            item['repay_type']=''
         item['reward'] = ''
-        item['protect_mode'] = sel.xpath('//div[@class=\"info_list_right\"]/ul/li/a/text()').extract()[0]
-        item['description'] = sel.xpath('//div[@class=\"borrowing_top\"]/strong/text()').extract()[0]
-        item['process'] = sel.xpath('//div[@class=\"info_list_left\"]/ul/li/text()').extract()[4]
-
+        try:
+            item['protect_mode'] = sel.xpath('//div[@class=\"info_list_right\"]/ul/li/a/text()').extract()[0]
+        except:
+            item['protect_mode']=''
+        try:
+            item['description'] = sel.xpath('//*[@id="lenddetail"]/div[4]/div[1]/div[3]/div/dl/dd/text()').extract()[0].split(u':')[1]
+        except:
+            item['description']=''
+        try:
+            item['process'] = sel.xpath('//div[@class="list_01"]/ul/li/text()').extract()[4]
+        except:
+            item['process']=''
         #[0].encode('utf-8')
         #[n.encode('utf-8') for n in title]
 

@@ -16,19 +16,14 @@ class WZDAIspider(CrawlSpider):
     name = 'wzdai'
     allowd_domain = ['www.wzdai.com']
 
-     #删除文件start
-    #if (os.path.exists("content.txt")): os.remove("content.txt")
-    #if (os.path.exists("content_index.txt")): os.remove("content_index.txt")
-    #删除文件end
-
     url_list = []; #初始化url_list数组
 
     download_delay = 3  #访问间隔秒数
 
     #for循环开始：访问产品列表的10个页面
-    for i in range(1,10) :
-        url_js = 'https://www.wzdai.com/invest/index.html?t=b&order=-1&status=1&investmentTypeId=&time_limit=&page=' + str(i)  #陆金所js调用的页面链接，str(i)是翻页数
-        #print(url_js)
+    for i in range(1,2):
+        url_js = 'http://finance.wzdai.com/list.shtml'
+        print(url_js)
         wp = urllib.urlopen(url_js) #打开连接
         content = wp.read() #获取页面内容
         content_productid = re.findall('detail_'r'\d{6}', content) #获取 （"productid":） 及其后6位的id

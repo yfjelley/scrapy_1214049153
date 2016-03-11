@@ -52,7 +52,7 @@ class ELOANspider(CrawlSpider):
         #item['link'] = sel.xpath('//a[@class=\"viewBtn\"]/@href').extract()
         #title2 = title1.extract().split(",")[1].split("-")[0]
         name1 = sel.xpath('//title/text()').extract()[0]
-        name2 = name1.split(" ")[2]
+        name2 = name1.split(" ")[1]
         item['name'] = name2[0:-6]
         item['link']  = response.url
         item['amount'] = sel.xpath('//div[@class=\"ld_info fl\"]/ul/li/span[@class=\"font22 colorE6\"]/text()').extract()[0].strip()
@@ -76,7 +76,7 @@ class ELOANspider(CrawlSpider):
         item['transfer_claim'] = ''
         item['min_amount'] = ''
         try:
-            item['process'] = sel.xpath('//div[@class=\"ld_info fl\"]/ul/li/span/em[@style=\"width:100.0%;background-color:#7cae4a;\"]/text()').extract()[0].strip()
+            item['process'] = sel.xpath('//span[@class=\"plan"]/em/text()').extract()[0]
         except:
             item['process'] = ''
 
